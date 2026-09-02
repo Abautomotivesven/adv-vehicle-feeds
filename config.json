@@ -1,0 +1,43 @@
+{
+  "sources": [
+    { "key": "ab",          "label": "AB Automotive",          "url": "https://stock-be.motork.io/myPortalXML/index?myPortalXMLkey=REDACTED" },
+    { "key": "waasland",    "label": "Waasland Automotive",    "url": "https://stock-be.motork.io/myPortalXML/index?myPortalXMLkey=REDACTED" },
+    { "key": "vanspringel", "label": "Vanspringel Automobiles","url": "https://stock-be.motork.io/myPortalXML/index?myPortalXMLkey=REDACTED" },
+    { "key": "neyt",        "label": "Garage Neyt",            "url": "https://stock-be.motork.io/myPortalXML/index?myPortalXMLkey=REDACTED" }
+  ],
+
+  "site": {
+    "nl": { "host": "https://nl.advusedcars.be", "segment": "autos/tweedehands" },
+    "fr": { "host": "https://fr.advusedcars.be", "segment": "voitures/occasion" }
+  },
+
+  "currency": "EUR",
+  "country": "BE",
+
+  "livecheck": {
+    "enabled": true,
+    "concurrency": 8,
+    "timeoutMs": 20000,
+    "retries": 2,
+    "_comment": "Only an explicit 404/410 removes a vehicle. Network errors keep it (fail-open) so an outage never empties the feed."
+  },
+
+  "images": {
+    "stripQueryParams": true,
+    "_comment": "MotorK adds a watermark overlay via query string on the AB feed. Google disapproves watermarked images, so we request the clean original.",
+    "metaMax": 20,
+    "googleAdditionalMax": 10
+  },
+
+  "google": {
+    "fulfillment": "online",
+    "_comment": "'online' validates immediately. Switch to 'in_store' or 'both' once the store codes in stores.csv exist in the linked Google Business Profile.",
+    "excludeCommercial": true,
+    "productCategory": "916"
+  },
+
+  "validation": {
+    "minCarsPerSource": 1,
+    "failOnEmptySource": true
+  }
+}

@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>ADV vehicle feeds</title>
+<style>
+  :root {
+    --navy: #041028; --grey: #f3f3f5;
+    --ink: #101828; --muted: #667085; --line: #e4e7ec;
+    --ok: #067647; --warn: #b54708; --bad: #b42318;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 20px 64px;
+    font: 15px/1.55 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background:
+      radial-gradient(1100px 480px at 12% -8%, #16305c 0%, transparent 60%),
+      linear-gradient(180deg, var(--navy) 0 340px, var(--grey) 340px 100%);
+    background-attachment: fixed;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  header { padding: 44px 0 28px; color: #fff; }
+  h1 { margin: 0 0 6px; font-size: 30px; letter-spacing: -0.02em; }
+  header p { margin: 0; opacity: .75; font-size: 14px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-bottom: 26px; }
+  .card {
+    background: var(--card); border-radius: 14px; padding: 18px 18px 16px;
+    box-shadow: 0 8px 24px rgba(4,16,40,.10), 0 1px 2px rgba(4,16,40,.06);
+  }
+  .card .k { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .card .v { font-size: 30px; font-weight: 650; letter-spacing: -0.02em; margin-top: 4px; }
+  section {
+    background: var(--card); border-radius: 14px; padding: 22px 24px; margin-bottom: 18px;
+    box-shadow: 0 8px 24px rgba(4,16,40,.08), 0 1px 2px rgba(4,16,40,.05);
+  }
+  h2 { margin: 0 0 4px; font-size: 17px; letter-spacing: -0.01em; }
+  .sub { margin: 0 0 16px; color: var(--muted); font-size: 13.5px; }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 600; white-space: nowrap; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.name { font-weight: 550; }
+  tr:last-child td { border-bottom: 0; }
+  .ok { color: var(--ok); } .warn { color: var(--warn); } .bad { color: var(--bad); font-weight: 600; }
+  .muted { color: var(--muted); }
+  code { font: 12.5px/1.4 ui-monospace, "Cascadia Mono", Menlo, Consolas, monospace; background: var(--grey); padding: 1px 5px; border-radius: 5px; }
+  .pill { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 999px; background: var(--grey); color: var(--muted); }
+  .files { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; }
+  .file { display: block; padding: 13px 15px; border: 1px solid var(--line); border-radius: 11px; text-decoration: none; color: inherit; transition: .15s; }
+  .file:hover { border-color: var(--navy); transform: translateY(-1px); box-shadow: 0 6px 16px rgba(4,16,40,.10); }
+  .file b { display: block; font-size: 14px; }
+  .file span { font-size: 12.5px; color: var(--muted); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  @media (max-width: 720px) { .two { grid-template-columns: 1fr; } header { padding-top: 30px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>ADV vehicle feeds</h1>
+    <p>Generated woensdag 2 september 2026 om 17:59 · Brussels time</p>
+  </header>
+
+  <div class="cards">
+    <div class="card"><div class="k">Meta</div><div class="v">104</div></div>
+    <div class="card"><div class="k">Google</div><div class="v">85</div></div>
+    <div class="card"><div class="k">Merged stock</div><div class="v">130</div></div>
+    <div class="card"><div class="k">Excluded</div><div class="v warn">25</div></div>
+    <div class="card"><div class="k">Duplicates</div><div class="v">2</div></div>
+  </div>
+
+  <section>
+    <h2>Feed files</h2>
+    <p class="sub">These are the URLs to paste into Commerce Manager and Merchant Center.</p>
+    <div class="files">
+      <a class="file" href="meta-vehicles-nl.csv"><b>meta-vehicles-nl.csv</b><span>Meta catalogue, Dutch</span></a>
+      <a class="file" href="meta-vehicles-fr.csv"><b>meta-vehicles-fr.csv</b><span>Meta catalogue, French</span></a>
+      <a class="file" href="google-vehicles-nl.xml"><b>google-vehicles-nl.xml</b><span>Merchant Center, Dutch</span></a>
+      <a class="file" href="google-vehicles-fr.xml"><b>google-vehicles-fr.xml</b><span>Merchant Center, French</span></a>
+      <a class="file" href="stores.csv"><b>stores.csv</b><span>Store data source</span></a>
+      <a class="file" href="report.json"><b>report.json</b><span>Full machine-readable report</span></a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Per dealer</h2>
+    <p class="sub">If a number drops to zero overnight, that source has broken.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr>
+          <th>Dealer</th><th class="num">Stock</th><th class="num">Meta</th><th class="num">Google</th>
+          <th class="num">Excluded</th><th class="num">No photos</th><th class="num">No VIN</th>
+        </tr></thead>
+        <tbody>
+      <tr>
+        <td class="name">AB Automotive Vilvoorde</td>
+        <td class="num">58</td>
+        <td class="num warn">39</td>
+        <td class="num warn">35</td>
+        <td class="num warn">18</td>
+        <td class="num bad">1</td>
+        <td class="num bad">2</td>
+      </tr>
+      <tr>
+        <td class="name">Garage Neyt</td>
+        <td class="num">22</td>
+        <td class="num ok">22</td>
+        <td class="num warn">16</td>
+        <td class="num muted">0</td>
+        <td class="num muted">0</td>
+        <td class="num muted">0</td>
+      </tr>
+      <tr>
+        <td class="name">Waasland Automotive Beveren</td>
+        <td class="num">16</td>
+        <td class="num warn">14</td>
+        <td class="num warn">10</td>
+        <td class="num warn">2</td>
+        <td class="num muted">0</td>
+        <td class="num muted">0</td>
+      </tr>
+      <tr>
+        <td class="name">Vanspringel Automobiles</td>
+        <td class="num">13</td>
+        <td class="num warn">11</td>
+        <td class="num warn">9</td>
+        <td class="num warn">2</td>
+        <td class="num muted">0</td>
+        <td class="num muted">0</td>
+      </tr>
+      <tr>
+        <td class="name">ADV Used Cars</td>
+        <td class="num">9</td>
+        <td class="num ok">9</td>
+        <td class="num warn">8</td>
+        <td class="num muted">0</td>
+        <td class="num muted">0</td>
+        <td class="num muted">0</td>
+      </tr>
+      <tr>
+        <td class="name">AB Automotive Schaarbeek</td>
+        <td class="num">6</td>
+        <td class="num ok">6</td>
+        <td class="num ok">6</td>
+        <td class="num muted">0</td>
+        <td class="num muted">0</td>
+        <td class="num muted">0</td>
+      </tr>
+      <tr>
+        <td class="name">Waasland Automotive Sint-Niklaas</td>
+        <td class="num">6</td>
+        <td class="num warn">3</td>
+        <td class="num warn">1</td>
+        <td class="num warn">3</td>
+        <td class="num muted">0</td>
+        <td class="num bad">3</td>
+      </tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Not published on advusedcars.be</h2>
+    <p class="sub">These have no detail page on the website, so they are left out rather than given a link that errors.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="num">ID</th><th>Vehicle</th><th>Dealer</th><th>Type</th><th>Reason</th></tr></thead>
+        <tbody>
+      <tr>
+        <td class="num">18431</td>
+        <td>2024 Ford Mustang Mach-E Mach E - GT - Vapor Blue</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">52804</td>
+        <td>2025 Ford Mustang Mach-E Mach E - RWD - Base - 72Kwh</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">59182</td>
+        <td>2025 Ford F 150 New F150 Raptor - V6 + LPG</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">60204</td>
+        <td>2025 Ford Mustang Mustang V8 / Cabrio / Automaat / Dark Pack</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">62656</td>
+        <td>2024 Ford Kuga ST LINE X / Benzine / Garantie</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">84588</td>
+        <td>2024 Ford Tourneo Tourneo Courier / EV / Garantie</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">84593</td>
+        <td>2024 Ford Transit Courier Transit Courier - EV - New - Fleetprice</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">89072</td>
+        <td>2024 Ford Capri AWD / PREMIUM / 79Kwh / Garantie</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">89174</td>
+        <td>2024 Ford Transit Custom E / 100Kw / Garantie</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">90087</td>
+        <td>2025 Ford F 150 F150 LARIAT</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">90094</td>
+        <td>2025 Ford F 150 F150 LARIAT</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">90225</td>
+        <td>2023 Ford Transit Custom Multi-Use 5 PLACES / L2 / Diesel / Garantie</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">90226</td>
+        <td>2023 Ford Transit Custom Multi-Use 5 PLACES / L2 / Diesel / Garantie</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">90426</td>
+        <td>2023 Ford Transit Courier Trend / 100pk / Benzine / Fleetprice / Garantie</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">90427</td>
+        <td>2023 Ford Transit Courier Trend / 100pk / Benzine / Fleetprice / Garantie</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">90564</td>
+        <td>2026 Ford Transit Custom Custom EV / Garantie / L2 / 136Pk</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">98467</td>
+        <td>2024 Ford Puma St line X / New Car / Garantie</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">135786</td>
+        <td>2026 Ford Kuga Titanium / Phev / New car</td>
+        <td>AB Automotive Vilvoorde</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">22125</td>
+        <td>2022 Ford Transit Chassis Cabine Trend 350L</td>
+        <td>Vanspringel Automobiles</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">69981</td>
+        <td>2025 Ford F 150</td>
+        <td>Vanspringel Automobiles</td>
+        <td><span class="pill">Used</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">49510</td>
+        <td>2023 Ford Mustang Mustang Cabrio - 5.0 V8 446 pk - Manueel</td>
+        <td>Waasland Automotive Beveren</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">57123</td>
+        <td>2025 Ford Mustang Mach-E 99 kWh AWD GT - Daginschrijving</td>
+        <td>Waasland Automotive Beveren</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">87996</td>
+        <td>2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura</td>
+        <td>Waasland Automotive Sint-Niklaas</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">87997</td>
+        <td>2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura</td>
+        <td>Waasland Automotive Sint-Niklaas</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr>
+      <tr>
+        <td class="num">87998</td>
+        <td>2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura</td>
+        <td>Waasland Automotive Sint-Niklaas</td>
+        <td><span class="pill">New</span></td>
+        <td class="muted">no detail page on advusedcars.be</td>
+      </tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Same car in two feeds</h2>
+    <p class="sub">Matched on VIN. Both platforms reject an offer whose VIN appears twice, so one record is kept.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>VIN</th><th>Vehicle</th><th>Kept</th><th>Dropped</th><th>Why</th></tr></thead>
+        <tbody>
+      <tr>
+        <td><code>WF0FXXWPMHPP47507</code></td>
+        <td>2024 Ford Kuga</td>
+        <td class="ok">waasland:92446</td>
+        <td class="muted">neyt:20994</td>
+        <td class="muted">kept the more recently updated record</td>
+      </tr>
+      <tr>
+        <td><code>WF0TK3SU9MMA31707</code></td>
+        <td>2021 Ford Mustang Mach-E</td>
+        <td class="ok">neyt:21012</td>
+        <td class="muted">ab:102083</td>
+        <td class="muted">kept the record with photos</td>
+      </tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="two">
+    <section>
+      <h2>Missing for Meta</h2>
+      <p class="sub">Required fields still empty, counted over the merged stock.</p>
+      <table><thead><tr><th>Field</th><th class="num">Vehicles</th></tr></thead><tbody><tr><td><code>image</code></td><td class="num">1</td></tr><tr><td><code>mileage.value</code></td><td class="num">1</td></tr></tbody></table>
+    </section>
+    <section>
+      <h2>Missing for Google</h2>
+      <p class="sub">Required attributes still empty, counted over the merged stock.</p>
+      <table><thead><tr><th>Attribute</th><th class="num">Vehicles</th></tr></thead><tbody><tr><td><code>VIN</code></td><td class="num">5</td></tr><tr><td><code>image_link</code></td><td class="num">1</td></tr><tr><td><code>mileage</code></td><td class="num">1</td></tr></tbody></table>
+    </section>
+  </div>
+</div>
+</body>
+</html>

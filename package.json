@@ -1,0 +1,14 @@
+{
+  "name": "adv-vehicle-feeds",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Merges the four MotorK stock feeds into one Meta vehicle catalogue and one Google Merchant Center vehicle feed.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node src/build.js",
+    "build:cached": "node src/build.js --cached",
+    "check": "node tools/check-output.js",
+    "inspect": "node tools/inspect.js"
+  },
+  "license": "UNLICENSED"
+}

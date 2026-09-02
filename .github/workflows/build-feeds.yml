@@ -1,0 +1,66 @@
+name: Build vehicle feeds
+
+on:
+  schedule:
+    # 05:15 UTC — early morning in Brussels, before Meta and Google poll.
+    - cron: '15 5 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'tools/**'
+      - 'config.json'
+      - '.github/workflows/build-feeds.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two builds publish at once, but let a running one finish so a
+# scheduled feed is not left half-published.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build feeds
+        run: node src/build.js
+
+      - name: Check output against the Meta and Google specs
+        run: node tools/check-output.js
+
+      - name: Upload feeds as a build artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: feeds
+          path: docs/
+          retention-days: 14
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
