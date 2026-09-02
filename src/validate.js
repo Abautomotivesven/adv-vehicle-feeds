@@ -78,7 +78,8 @@ function validate(vehicles, duplicates, config) {
     const row = {
       id: v.id,
       source: v.source,
-      dealer: v.dealer.name,
+      dealer: v.dealer.label,
+      dealerName: v.dealer.name,
       storeCode: v.dealer.storeCode,
       vehicle: [v.year, v.make, v.model, v.trim].filter(Boolean).join(' '),
       condition: v.condition.meta,

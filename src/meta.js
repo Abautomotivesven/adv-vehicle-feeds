@@ -74,8 +74,9 @@ function row(v, lang, config, maxImages) {
     dealer_id: v.dealer.storeCode,
     dealer_name: v.dealer.name,
     dealer_phone: v.dealer.phone,
-    // Handy for building product sets in Commerce Manager.
-    custom_label_0: v.dealer.name,
+    // Handy for building product sets in Commerce Manager — the physical showroom,
+    // since every AB site shares one public name.
+    custom_label_0: v.dealer.label,
     custom_label_1: v.make,
     custom_label_2: v.fuelLabel[lang],
   };

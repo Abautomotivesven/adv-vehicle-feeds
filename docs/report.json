@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:02:57.608Z",
+  "generatedAt": "2026-09-02T16:09:15.555Z",
   "totals": {
     "merged": 130,
     "inMeta": 104,
@@ -9,7 +9,7 @@
     "duplicatesDropped": 2
   },
   "byDealer": {
-    "AB Automotive Vilvoorde": {
+    "ADV Used Cars Vilvoorde (Mechelsesteenweg)": {
       "total": 58,
       "inMeta": 39,
       "inGoogle": 35,
@@ -20,7 +20,7 @@
       "noYear": 0,
       "noMileage": 1
     },
-    "ADV Used Cars": {
+    "ADV Used Cars Vilvoorde (Schaarbeeklei)": {
       "total": 9,
       "inMeta": 9,
       "inGoogle": 8,
@@ -31,7 +31,7 @@
       "noYear": 0,
       "noMileage": 0
     },
-    "AB Automotive Schaarbeek": {
+    "ADV Used Cars Schaarbeek": {
       "total": 6,
       "inMeta": 6,
       "inGoogle": 6,
@@ -166,106 +166,106 @@
     {
       "id": "18431",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Mustang Mach-E Mach E - GT - Vapor Blue",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "52804",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2025 Ford Mustang Mach-E Mach E - RWD - Base - 72Kwh",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "59182",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2025 Ford F 150 New F150 Raptor - V6 + LPG",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "60204",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2025 Ford Mustang Mustang V8 / Cabrio / Automaat / Dark Pack",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "62656",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Kuga ST LINE X / Benzine / Garantie",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "84588",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Tourneo Tourneo Courier / EV / Garantie",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "84593",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Transit Courier Transit Courier - EV - New - Fleetprice",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "89072",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Capri AWD / PREMIUM / 79Kwh / Garantie",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "89174",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Transit Custom E / 100Kw / Garantie",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "90087",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2025 Ford F 150 F150 LARIAT",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "90094",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2025 Ford F 150 F150 LARIAT",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "90225",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2023 Ford Transit Custom Multi-Use 5 PLACES / L2 / Diesel / Garantie",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
@@ -274,56 +274,56 @@
     {
       "id": "90226",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2023 Ford Transit Custom Multi-Use 5 PLACES / L2 / Diesel / Garantie",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90226/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90226/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "90426",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2023 Ford Transit Courier Trend / 100pk / Benzine / Fleetprice / Garantie",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "90427",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2023 Ford Transit Courier Trend / 100pk / Benzine / Fleetprice / Garantie",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "90564",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2026 Ford Transit Custom Custom EV / Garantie / L2 / 136Pk",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/elektrisch/custom-ev-garantie-l2-136pk/90564/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/elektrisch/custom-ev-garantie-l2-136pk/90564/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "98467",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Puma St line X / New Car / Garantie",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "135786",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2026 Ford Kuga Titanium / Phev / New car",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/plug-in-hybride/titanium-phev-new-car/135786/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/plug-in-hybride/titanium-phev-new-car/135786/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "22125",
@@ -332,7 +332,7 @@
       "vehicle": "2022 Ford Transit Chassis Cabine Trend 350L",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "69981",
@@ -341,7 +341,7 @@
       "vehicle": "2025 Ford F 150",
       "condition": "Used",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "49510",
@@ -350,7 +350,7 @@
       "vehicle": "2023 Ford Mustang Mustang Cabrio - 5.0 V8 446 pk - Manueel",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "57123",
@@ -359,7 +359,7 @@
       "vehicle": "2025 Ford Mustang Mach-E 99 kWh AWD GT - Daginschrijving",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "87996",
@@ -368,7 +368,7 @@
       "vehicle": "2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "87997",
@@ -377,7 +377,7 @@
       "vehicle": "2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "87998",
@@ -386,14 +386,15 @@
       "vehicle": "2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 410)"
     }
   ],
   "rows": [
     {
       "id": "15491",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2022 Ford Mustang Mach-E New MACH E GT - 487PK",
       "condition": "Used",
@@ -410,7 +411,8 @@
     {
       "id": "15511",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Focus Titanium - Clipper - Benzine",
       "condition": "Used",
@@ -427,7 +429,8 @@
     {
       "id": "15515",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Mustang Mach-E AWD - 99Kwh - Full Option",
       "condition": "Used",
@@ -444,7 +447,8 @@
     {
       "id": "15524",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2022 Ford Focus St Line - Garantie",
       "condition": "Used",
@@ -461,7 +465,8 @@
     {
       "id": "15526",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2022 Ford Transit Custom Custom L2 - 130pk - Garantie",
       "condition": "Used",
@@ -482,7 +487,8 @@
     {
       "id": "15536",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Kuga New ST Line X / Black Edition -",
       "condition": "Used",
@@ -499,7 +505,8 @@
     {
       "id": "15543",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Kuga ST-Line - Demo Wagen",
       "condition": "Used",
@@ -516,7 +523,8 @@
     {
       "id": "15555",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford E-Transit E Transit L2-H2 - POWER ON BOARD",
       "condition": "Used",
@@ -533,7 +541,8 @@
     {
       "id": "15572",
       "source": "ab",
-      "dealer": "ADV Used Cars",
+      "dealer": "ADV Used Cars Vilvoorde (Schaarbeeklei)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-USEDCARS-VILVOORDE",
       "vehicle": "2022 Ford Focus Active - 17500km - Garantie",
       "condition": "Used",
@@ -550,7 +559,8 @@
     {
       "id": "15658",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Kuga ST Line X - PHEV -",
       "condition": "Used",
@@ -567,7 +577,8 @@
     {
       "id": "15669",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Focus Titanium - Clipper - Benzine",
       "condition": "Used",
@@ -584,7 +595,8 @@
     {
       "id": "15681",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2022 Ford Focus St Line - Garantie",
       "condition": "Used",
@@ -601,7 +613,8 @@
     {
       "id": "16943",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2022 Ford Focus St Line - Garantie",
       "condition": "Used",
@@ -618,7 +631,8 @@
     {
       "id": "18431",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Mustang Mach-E Mach E - GT - Vapor Blue",
       "condition": "New",
@@ -631,7 +645,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -641,7 +655,8 @@
     {
       "id": "19973",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Kuga ST Line X / Black Edition / PHEV / Demowagen",
       "condition": "Used",
@@ -658,7 +673,8 @@
     {
       "id": "22130",
       "source": "ab",
-      "dealer": "ADV Used Cars",
+      "dealer": "ADV Used Cars Vilvoorde (Schaarbeeklei)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-USEDCARS-VILVOORDE",
       "vehicle": "2024 Ford Tourneo Custom 2.0 TD 136PK - 8 Plaatsen!!",
       "condition": "Used",
@@ -675,7 +691,8 @@
     {
       "id": "25427",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Puma New Puma - Titanium - Demowagen",
       "condition": "Used",
@@ -692,7 +709,8 @@
     {
       "id": "25428",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Focus Titanium - Clipper - Benzine",
       "condition": "Used",
@@ -709,7 +727,8 @@
     {
       "id": "25655",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Mustang Mach-E Mach E - GT - Demo wagen",
       "condition": "Used",
@@ -726,7 +745,8 @@
     {
       "id": "35753",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Capri NEW Capri E - AWD - 79kWh",
       "condition": "Used",
@@ -743,7 +763,8 @@
     {
       "id": "35756",
       "source": "ab",
-      "dealer": "AB Automotive Schaarbeek",
+      "dealer": "ADV Used Cars Schaarbeek",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-SCHAARBEEK",
       "vehicle": "2022 Ford Kuga Benzine - Manueel - St line",
       "condition": "Used",
@@ -760,7 +781,8 @@
     {
       "id": "35931",
       "source": "ab",
-      "dealer": "AB Automotive Schaarbeek",
+      "dealer": "ADV Used Cars Schaarbeek",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-SCHAARBEEK",
       "vehicle": "2024 Ford Explorer New Explorer BEV - RWD - 77Kwh",
       "condition": "Used",
@@ -777,7 +799,8 @@
     {
       "id": "46404",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Focus Active - 125Pk Mhev - garantie",
       "condition": "Used",
@@ -794,7 +817,8 @@
     {
       "id": "52450",
       "source": "ab",
-      "dealer": "AB Automotive Schaarbeek",
+      "dealer": "ADV Used Cars Schaarbeek",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-SCHAARBEEK",
       "vehicle": "2024 Ford Capri New Capri EV - 77 KWH - RWD",
       "condition": "Used",
@@ -811,7 +835,8 @@
     {
       "id": "52804",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2025 Ford Mustang Mach-E Mach E - RWD - Base - 72Kwh",
       "condition": "New",
@@ -824,7 +849,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -834,7 +859,8 @@
     {
       "id": "52823",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2025 Ford Mustang Mach-E Mach E - RWD - 91Kwh - 294pk",
       "condition": "Used",
@@ -851,7 +877,8 @@
     {
       "id": "53963",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2019 Ford Focus 100Pk - Garantie - GPS",
       "condition": "Used",
@@ -868,7 +895,8 @@
     {
       "id": "58163",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Focus Connected - Clipper - Garantie",
       "condition": "Used",
@@ -885,7 +913,8 @@
     {
       "id": "58206",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Explorer New Explorer Ev - Premium - 79Kwh - 340pk",
       "condition": "Used",
@@ -902,7 +931,8 @@
     {
       "id": "59182",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2025 Ford F 150 New F150 Raptor - V6 + LPG",
       "condition": "New",
@@ -915,7 +945,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -925,7 +955,8 @@
     {
       "id": "60091",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2021 Ford Focus Benzine 100pk - GPS",
       "condition": "Used",
@@ -942,7 +973,8 @@
     {
       "id": "60204",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2025 Ford Mustang Mustang V8 / Cabrio / Automaat / Dark Pack",
       "condition": "New",
@@ -955,7 +987,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -965,7 +997,8 @@
     {
       "id": "62656",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Kuga ST LINE X / Benzine / Garantie",
       "condition": "New",
@@ -978,7 +1011,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -988,7 +1021,8 @@
     {
       "id": "62759",
       "source": "ab",
-      "dealer": "AB Automotive Schaarbeek",
+      "dealer": "ADV Used Cars Schaarbeek",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-SCHAARBEEK",
       "vehicle": "2025 Ford Puma New Puma Gen E / Premium / 43Kwh",
       "condition": "Used",
@@ -1005,7 +1039,8 @@
     {
       "id": "62841",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2025 Ford Transit Courier E COURIER / BEV / DEMO",
       "condition": "Used",
@@ -1022,7 +1057,8 @@
     {
       "id": "65602",
       "source": "ab",
-      "dealer": "AB Automotive Schaarbeek",
+      "dealer": "ADV Used Cars Schaarbeek",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-SCHAARBEEK",
       "vehicle": "2024 Ford Kuga New St line - PHEV - Demo",
       "condition": "Used",
@@ -1039,7 +1075,8 @@
     {
       "id": "69190",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2022 Ford Focus EcoBoost mHEV Titanium X",
       "condition": "Used",
@@ -1056,7 +1093,8 @@
     {
       "id": "70789",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2019 Ford C-Max C-max / Titanium / Benzine / Garantie",
       "condition": "Used",
@@ -1073,7 +1111,8 @@
     {
       "id": "82025",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Ranger DC BiT EcoBlue Wildtrak AUT",
       "condition": "Used",
@@ -1090,7 +1129,8 @@
     {
       "id": "84099",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2018 Ford Focus Focus Sync / Edition / Garantie",
       "condition": "Used",
@@ -1107,7 +1147,8 @@
     {
       "id": "84588",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Tourneo Tourneo Courier / EV / Garantie",
       "condition": "New",
@@ -1120,7 +1161,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -1130,7 +1171,8 @@
     {
       "id": "84590",
       "source": "ab",
-      "dealer": "AB Automotive Schaarbeek",
+      "dealer": "ADV Used Cars Schaarbeek",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-SCHAARBEEK",
       "vehicle": "2023 Ford Puma Titanium X / Automaat / 45000km / Garantie",
       "condition": "Used",
@@ -1147,7 +1189,8 @@
     {
       "id": "84593",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Transit Courier Transit Courier - EV - New - Fleetprice",
       "condition": "New",
@@ -1160,7 +1203,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": true,
@@ -1170,7 +1213,8 @@
     {
       "id": "87182",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Kuga ST LINE / Garantie / Pano Dak",
       "condition": "Used",
@@ -1187,7 +1231,8 @@
     {
       "id": "87186",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Transit Connect L2 / 19990€ ex BTW / Garantie",
       "condition": "Used",
@@ -1204,7 +1249,8 @@
     {
       "id": "87597",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2019 Ford ECOSPORT Ecoboost / Garantie / 80000km",
       "condition": "Used",
@@ -1221,7 +1267,8 @@
     {
       "id": "87606",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2019 Ford ECOSPORT EcoBoost / Business Class / Garantie",
       "condition": "Used",
@@ -1238,7 +1285,8 @@
     {
       "id": "89072",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Capri AWD / PREMIUM / 79Kwh / Garantie",
       "condition": "New",
@@ -1251,7 +1299,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -1261,7 +1309,8 @@
     {
       "id": "89174",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Transit Custom E / 100Kw / Garantie",
       "condition": "New",
@@ -1278,7 +1327,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": true,
@@ -1288,7 +1337,8 @@
     {
       "id": "90087",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2025 Ford F 150 F150 LARIAT",
       "condition": "New",
@@ -1303,7 +1353,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -1313,7 +1363,8 @@
     {
       "id": "90094",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2025 Ford F 150 F150 LARIAT",
       "condition": "New",
@@ -1328,7 +1379,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -1338,7 +1389,8 @@
     {
       "id": "90225",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Transit Custom Multi-Use 5 PLACES / L2 / Diesel / Garantie",
       "condition": "New",
@@ -1361,7 +1413,8 @@
     {
       "id": "90226",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Transit Custom Multi-Use 5 PLACES / L2 / Diesel / Garantie",
       "condition": "New",
@@ -1374,7 +1427,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90226/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90226/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": true,
@@ -1384,7 +1437,8 @@
     {
       "id": "90426",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Transit Courier Trend / 100pk / Benzine / Fleetprice / Garantie",
       "condition": "New",
@@ -1397,7 +1451,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": true,
@@ -1407,7 +1461,8 @@
     {
       "id": "90427",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Transit Courier Trend / 100pk / Benzine / Fleetprice / Garantie",
       "condition": "New",
@@ -1420,7 +1475,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": true,
@@ -1430,7 +1485,8 @@
     {
       "id": "90564",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2026 Ford Transit Custom Custom EV / Garantie / L2 / 136Pk",
       "condition": "New",
@@ -1443,7 +1499,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/elektrisch/custom-ev-garantie-l2-136pk/90564/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/elektrisch/custom-ev-garantie-l2-136pk/90564/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": true,
@@ -1453,7 +1509,8 @@
     {
       "id": "94017",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Transit Model 2025 / E Transit / 40.000€ + TVA / Garantie",
       "condition": "Used",
@@ -1470,7 +1527,8 @@
     {
       "id": "97631",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2025 Ford Puma GEN E - PREMIUM - FULL EV",
       "condition": "Used",
@@ -1487,7 +1545,8 @@
     {
       "id": "98467",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Puma St line X / New Car / Garantie",
       "condition": "New",
@@ -1500,7 +1559,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -1510,7 +1569,8 @@
     {
       "id": "102097",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Explorer Electric 77 kWh RWD Premium - Directiewagen",
       "condition": "Used",
@@ -1527,7 +1587,8 @@
     {
       "id": "102117",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Capri 77 kWh Extended Range RWD Premium - Directiewagen!",
       "condition": "Used",
@@ -1544,7 +1605,8 @@
     {
       "id": "102580",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2023 Ford Fiesta ST-Line - Carplay/Android Auto - Winter Pack!!",
       "condition": "Used",
@@ -1561,7 +1623,8 @@
     {
       "id": "102597",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Focus Winter Pack - Carplay/Android Auto - Ruby Red Metallic!!",
       "condition": "Used",
@@ -1578,7 +1641,8 @@
     {
       "id": "102615",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2024 Ford Kuga PHEV ST-Line X - Graphite Tech Edition!!",
       "condition": "Used",
@@ -1595,7 +1659,8 @@
     {
       "id": "102653",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2021 Ford Focus Carplay/Android Auto - Winter Pack - Magnetic Metallic!!",
       "condition": "Used",
@@ -1612,7 +1677,8 @@
     {
       "id": "103629",
       "source": "ab",
-      "dealer": "ADV Used Cars",
+      "dealer": "ADV Used Cars Vilvoorde (Schaarbeeklei)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-USEDCARS-VILVOORDE",
       "vehicle": "2020 Ford Mondeo HEV ST-Line Hybrid AUT",
       "condition": "Used",
@@ -1629,7 +1695,8 @@
     {
       "id": "103716",
       "source": "ab",
-      "dealer": "ADV Used Cars",
+      "dealer": "ADV Used Cars Vilvoorde (Schaarbeeklei)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-USEDCARS-VILVOORDE",
       "vehicle": "2023 Ford Mustang 5.0 V8 - Mach 1 - Recaro Seats - Manual!!",
       "condition": "Used",
@@ -1646,7 +1713,8 @@
     {
       "id": "113080",
       "source": "ab",
-      "dealer": "ADV Used Cars",
+      "dealer": "ADV Used Cars Vilvoorde (Schaarbeeklei)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-USEDCARS-VILVOORDE",
       "vehicle": "2025 Ford Transit Connect EcoBlue Trend AUT LWB - Meteen beschikbaar!!",
       "condition": "Used",
@@ -1663,7 +1731,8 @@
     {
       "id": "119477",
       "source": "ab",
-      "dealer": "ADV Used Cars",
+      "dealer": "ADV Used Cars Vilvoorde (Schaarbeeklei)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-USEDCARS-VILVOORDE",
       "vehicle": "2019 Ford KA+ Active uitvoering - Ruby Red - Slechts 31.000 km!!",
       "condition": "Used",
@@ -1680,7 +1749,8 @@
     {
       "id": "135786",
       "source": "ab",
-      "dealer": "AB Automotive Vilvoorde",
+      "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-AB-VILVOORDE",
       "vehicle": "2026 Ford Kuga Titanium / Phev / New car",
       "condition": "New",
@@ -1693,7 +1763,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/plug-in-hybride/titanium-phev-new-car/135786/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/plug-in-hybride/titanium-phev-new-car/135786/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -1703,7 +1773,8 @@
     {
       "id": "138686",
       "source": "ab",
-      "dealer": "ADV Used Cars",
+      "dealer": "ADV Used Cars Vilvoorde (Schaarbeeklei)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-USEDCARS-VILVOORDE",
       "vehicle": "2026 Ford Ranger 3.0 EcoBoost V6 4WD Raptor by BOLD AUTOMOTIVE - 59.990 excl. BTW!!",
       "condition": "Used",
@@ -1720,7 +1791,8 @@
     {
       "id": "139170",
       "source": "ab",
-      "dealer": "ADV Used Cars",
+      "dealer": "ADV Used Cars Vilvoorde (Schaarbeeklei)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-USEDCARS-VILVOORDE",
       "vehicle": "2024 Ford Ranger Wildtrak - Full Option - € 37.200 excl. BTW!!",
       "condition": "Used",
@@ -1737,7 +1809,8 @@
     {
       "id": "139266",
       "source": "ab",
-      "dealer": "ADV Used Cars",
+      "dealer": "ADV Used Cars Vilvoorde (Schaarbeeklei)",
+      "dealerName": "ADV Used Cars",
       "storeCode": "ADV-USEDCARS-VILVOORDE",
       "vehicle": "2023 Ford Puma Vivid Ruby Edition - Automaat - Carplay/Android Auto - 13.800 km!!",
       "condition": "Used",
@@ -1755,6 +1828,7 @@
       "id": "20944",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2022 Ford Mustang Mach-E GT 487pk",
       "condition": "Used",
@@ -1772,6 +1846,7 @@
       "id": "20983",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2024 Ford Kuga FHEV ST-Line",
       "condition": "Used",
@@ -1789,6 +1864,7 @@
       "id": "20991",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2023 Ford Mustang Mach-E 91 kWh Premium AWD",
       "condition": "Used",
@@ -1806,6 +1882,7 @@
       "id": "21012",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2021 Ford Mustang Mach E AWD Extended Range 351pk",
       "condition": "Used",
@@ -1823,6 +1900,7 @@
       "id": "28243",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2023 Ford Ranger Wildtrak 2.0 diesel",
       "condition": "Used",
@@ -1840,6 +1918,7 @@
       "id": "33626",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2022 Ford Mustang Mach-E 91 kWh AWD GT",
       "condition": "Used",
@@ -1857,6 +1936,7 @@
       "id": "47294",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2024 Ford Explorer Explorer ER RWD",
       "condition": "Used",
@@ -1874,6 +1954,7 @@
       "id": "47298",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2024 Ford Explorer Explorer Premium ER AWD",
       "condition": "Used",
@@ -1891,6 +1972,7 @@
       "id": "47299",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2024 Ford Capri 77 kWh Extended Range RWD Premium",
       "condition": "Used",
@@ -1908,6 +1990,7 @@
       "id": "47300",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2025 Ford Capri 77 kWh Extended Range RWD Premium",
       "condition": "Used",
@@ -1925,6 +2008,7 @@
       "id": "47311",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2025 Ford Capri 77 kWh Extended Range RWD",
       "condition": "Used",
@@ -1942,6 +2026,7 @@
       "id": "47312",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2025 Ford Puma 43,6 kWh Gen-E Premium",
       "condition": "Used",
@@ -1959,6 +2044,7 @@
       "id": "52634",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2021 Ford Puma Ecoboost mHEV ST-Line X",
       "condition": "Used",
@@ -1976,6 +2062,7 @@
       "id": "52635",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2023 Ford Transit 350L L3H2 2.0 Ecoblue 130pk FWD Manueel",
       "condition": "Used",
@@ -1993,6 +2080,7 @@
       "id": "52637",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2024 Ford Mustang Mach-E 91 kWh Premium AWD",
       "condition": "Used",
@@ -2010,6 +2098,7 @@
       "id": "52645",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2022 Ford Transit 350L L3H2 Electric 67kWh Trend RWD AUT",
       "condition": "Used",
@@ -2027,6 +2116,7 @@
       "id": "64653",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2021 Ford Focus EcoBoost mHEV ST-Line",
       "condition": "Used",
@@ -2044,6 +2134,7 @@
       "id": "70574",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2023 Ford Mustang Mach-E 76 kWh Base RWD",
       "condition": "Used",
@@ -2061,6 +2152,7 @@
       "id": "75230",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2025 Ford Transit Courier EcoBlue Active",
       "condition": "Used",
@@ -2078,6 +2170,7 @@
       "id": "75389",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2025 Ford Transit Custom 300S TD Trend",
       "condition": "Used",
@@ -2095,6 +2188,7 @@
       "id": "75396",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2025 Ford Transit Custom 300L TD Trend",
       "condition": "Used",
@@ -2112,6 +2206,7 @@
       "id": "81589",
       "source": "neyt",
       "dealer": "Garage Neyt",
+      "dealerName": "Garage Neyt",
       "storeCode": "ADV-NEYT-LOKEREN",
       "vehicle": "2022 Ford Focus EcoBoost mHEV ST-Line Style",
       "condition": "Used",
@@ -2129,6 +2224,7 @@
       "id": "22125",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2022 Ford Transit Chassis Cabine Trend 350L",
       "condition": "New",
@@ -2141,7 +2237,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": true,
@@ -2152,6 +2248,7 @@
       "id": "64305",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2024 Ford Capri CAPRI AWD",
       "condition": "Used",
@@ -2169,6 +2266,7 @@
       "id": "65651",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2024 Ford Kuga PHEV ST-Line X",
       "condition": "Used",
@@ -2186,6 +2284,7 @@
       "id": "65727",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2022 Ford Mustang Mach-E 99kWh RWD",
       "condition": "Used",
@@ -2203,6 +2302,7 @@
       "id": "65734",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2024 Ford Explorer 77 kWh RWD",
       "condition": "Used",
@@ -2220,6 +2320,7 @@
       "id": "66376",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2024 Ford Mustang Mach-E 91 kWh Premium AWD",
       "condition": "Used",
@@ -2237,6 +2338,7 @@
       "id": "66388",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2025 Ford Capri 77 kWh Extended Range RWD Premium",
       "condition": "Used",
@@ -2254,6 +2356,7 @@
       "id": "68491",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2024 Ford Puma EcoBoost mHEV ST-Line X",
       "condition": "Used",
@@ -2271,6 +2374,7 @@
       "id": "69981",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2025 Ford F 150",
       "condition": "Used",
@@ -2283,7 +2387,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -2294,6 +2398,7 @@
       "id": "73365",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2025 Ford Transit Custom Nugget - Korte wielbasis - Meteen beschikbaar!!",
       "condition": "Used",
@@ -2311,6 +2416,7 @@
       "id": "80528",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2024 Ford Transit 350L L3H2 TD Trend AUT FWD",
       "condition": "Used",
@@ -2328,6 +2434,7 @@
       "id": "86380",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2024 Ford Puma EcoBoost Titanium",
       "condition": "Used",
@@ -2345,6 +2452,7 @@
       "id": "119139",
       "source": "vanspringel",
       "dealer": "Vanspringel Automobiles",
+      "dealerName": "Vanspringel Automobiles",
       "storeCode": "ADV-VANSPRINGEL-SAINT-GILLES",
       "vehicle": "2024 Ford Tourneo Custom 2.0 TD 136PK Automatique - 8 Places!!",
       "condition": "Used",
@@ -2362,6 +2470,7 @@
       "id": "20490",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2022 Ford Mustang Mach-E 76kWh AWD - Directiewagen!",
       "condition": "Used",
@@ -2379,6 +2488,7 @@
       "id": "30165",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2021 Ford Mustang Mach-E 76kWh RWD - Topdeal!",
       "condition": "Used",
@@ -2396,6 +2506,7 @@
       "id": "49510",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2023 Ford Mustang Mustang Cabrio - 5.0 V8 446 pk - Manueel",
       "condition": "New",
@@ -2408,7 +2519,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -2419,6 +2530,7 @@
       "id": "50010",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2021 Ford Focus Connected - € 19.990!!",
       "condition": "Used",
@@ -2436,6 +2548,7 @@
       "id": "57123",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2025 Ford Mustang Mach-E 99 kWh AWD GT - Daginschrijving",
       "condition": "New",
@@ -2448,7 +2561,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -2459,6 +2572,7 @@
       "id": "61147",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2024 Ford Transit Connect Trend L1 - 1.0 Ecoboost 100pk - Topdeal!",
       "condition": "Used",
@@ -2476,6 +2590,7 @@
       "id": "61148",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2024 Ford Transit Connect Trend L2 - 1.5 TDCI 100pk - Topdeal!",
       "condition": "Used",
@@ -2493,6 +2608,7 @@
       "id": "61259",
       "source": "waasland",
       "dealer": "Waasland Automotive Sint-Niklaas",
+      "dealerName": "Waasland Automotive Sint-Niklaas",
       "storeCode": "ADV-WAASLAND-SINT-NIKLAAS",
       "vehicle": "2024 Ford Transit Connect Trend L2 - 100pk - Topdeal!",
       "condition": "Used",
@@ -2510,6 +2626,7 @@
       "id": "62455",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2024 Ford Mustang Mach-E 99 kWh Premium AWD",
       "condition": "Used",
@@ -2527,6 +2644,7 @@
       "id": "78674",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2022 Ford Transit L2H2 350M - €19.990 Excl. BTW",
       "condition": "Used",
@@ -2544,6 +2662,7 @@
       "id": "81198",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2023 Ford Transit Custom L1H1 - € 22.950 ex. BTW!!",
       "condition": "Used",
@@ -2561,6 +2680,7 @@
       "id": "81635",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2019 Ford Transit Autotransport - €44.990 Excl. Btw!!",
       "condition": "Used",
@@ -2578,6 +2698,7 @@
       "id": "86278",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2022 Ford Focus Camera - Carplay/Android Auto - Garantie!!",
       "condition": "Used",
@@ -2595,6 +2716,7 @@
       "id": "86286",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2022 Ford Focus Camera - Carplay/Android Auto - Garantie!!",
       "condition": "Used",
@@ -2612,6 +2734,7 @@
       "id": "87996",
       "source": "waasland",
       "dealer": "Waasland Automotive Sint-Niklaas",
+      "dealerName": "Waasland Automotive Sint-Niklaas",
       "storeCode": "ADV-WAASLAND-SINT-NIKLAAS",
       "vehicle": "2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura",
       "condition": "New",
@@ -2626,7 +2749,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -2637,6 +2760,7 @@
       "id": "87997",
       "source": "waasland",
       "dealer": "Waasland Automotive Sint-Niklaas",
+      "dealerName": "Waasland Automotive Sint-Niklaas",
       "storeCode": "ADV-WAASLAND-SINT-NIKLAAS",
       "vehicle": "2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura",
       "condition": "New",
@@ -2651,7 +2775,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -2662,6 +2786,7 @@
       "id": "87998",
       "source": "waasland",
       "dealer": "Waasland Automotive Sint-Niklaas",
+      "dealerName": "Waasland Automotive Sint-Niklaas",
       "storeCode": "ADV-WAASLAND-SINT-NIKLAAS",
       "vehicle": "2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura",
       "condition": "New",
@@ -2676,7 +2801,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": false,
@@ -2687,6 +2812,7 @@
       "id": "91041",
       "source": "waasland",
       "dealer": "Waasland Automotive Sint-Niklaas",
+      "dealerName": "Waasland Automotive Sint-Niklaas",
       "storeCode": "ADV-WAASLAND-SINT-NIKLAAS",
       "vehicle": "2024 Ford Transit Custom Campervan - Meteen beschikbaar voor deze zomer!!",
       "condition": "Used",
@@ -2704,6 +2830,7 @@
       "id": "92325",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2023 Ford Kuga ST-Line X - Directiewagen!",
       "condition": "Used",
@@ -2721,6 +2848,7 @@
       "id": "92446",
       "source": "waasland",
       "dealer": "Waasland Automotive Sint-Niklaas",
+      "dealerName": "Waasland Automotive Sint-Niklaas",
       "storeCode": "ADV-WAASLAND-SINT-NIKLAAS",
       "vehicle": "2024 Ford Kuga 2.5i PHEV Aut. 178kW Titanium",
       "condition": "Used",
@@ -2738,6 +2866,7 @@
       "id": "92863",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2026 Zeekr 7X Long Range Business Edition - Directiewagen",
       "condition": "Used",
@@ -2755,6 +2884,7 @@
       "id": "96143",
       "source": "waasland",
       "dealer": "Waasland Automotive Beveren",
+      "dealerName": "Waasland Automotive Beveren",
       "storeCode": "ADV-WAASLAND-BEVEREN",
       "vehicle": "2024 Ford Ranger 3.0 EcoBlue A10 e-4WD Platinum - Full option!",
       "condition": "Used",
@@ -2770,6 +2900,6 @@
     }
   ],
   "problems": [
-    "ab:15526 (AB Automotive Vilvoorde) missing for Meta: image"
+    "ab:15526 (ADV Used Cars Vilvoorde (Mechelsesteenweg)) missing for Meta: image"
   ]
 }

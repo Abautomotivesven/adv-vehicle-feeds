@@ -84,7 +84,7 @@ function item(v, lang, config) {
     tag('g:certified_pre-owned', v.condition.google === 'Used' ? 'yes' : 'no'),
     tag('g:vehicle_option', vehicleOptions(v, lang).join(',')),
     tag('g:description', v.description[lang]),
-    tag('g:custom_label_0', v.dealer.name),
+    tag('g:custom_label_0', v.dealer.label),
     tag('g:custom_label_1', v.make),
     tag('g:custom_label_2', v.fuelLabel[lang]),
     tag('g:custom_label_3', v.source),
@@ -119,7 +119,7 @@ function buildStoresCsv(vehicles) {
   const rows = [csvLine(['store_code', 'store_name', 'address', 'phone', 'latitude', 'longitude'])];
   for (const d of seen.values()) {
     rows.push(csvLine([
-      d.storeCode, d.name,
+      d.storeCode, d.label,
       `${d.addr1}, ${d.zip} ${d.city}, BE`,
       d.phone, d.lat, d.lon,
     ]));

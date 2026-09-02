@@ -4,6 +4,13 @@
 // MotorK's <dealer> block is the source of truth, but several records are wrong or
 // incomplete. Everything listed here overrides the feed, keyed by the dealer name
 // exactly as MotorK spells it. Verified 2026-09-02 — see notes per entry.
+//
+// Two names per site, deliberately:
+//   name   what the customer sees on the ad. Every AB site sells under the ADV Used
+//          Cars brand, so they share one name — only the showroom differs, and the
+//          address, phone and coordinates on each listing are the real physical site.
+//   label  internal only. Keeps the sites apart in the daily report and in the
+//          product-set labels, so a broken source is still traceable to one showroom.
 
 const PROVINCE = {
   VBR: { nl: 'Vlaams-Brabant', fr: 'Brabant flamand' },
@@ -15,7 +22,8 @@ const PROVINCE = {
 const DEALERS = {
   'AB Automotive Vilvoorde': {
     storeCode: 'ADV-AB-VILVOORDE',
-    name: 'AB Automotive Vilvoorde',
+    name: 'ADV Used Cars',
+    label: 'ADV Used Cars Vilvoorde (Mechelsesteenweg)',
     addr1: 'Mechelsesteenweg 295', zip: '1800', city: 'Vilvoorde', county: 'VBR',
     phone: '+3222540310', email: 'bdc.fr@ab-automotive.be',
     lat: '50.945310', lon: '4.442320',
@@ -23,13 +31,15 @@ const DEALERS = {
   'ADV Used Cars': {
     storeCode: 'ADV-USEDCARS-VILVOORDE',
     name: 'ADV Used Cars',
+    label: 'ADV Used Cars Vilvoorde (Schaarbeeklei)',
     addr1: 'Schaarbeeklei 555', zip: '1800', city: 'Vilvoorde', county: 'VBR',
     phone: '+3222546995', email: 'bdc.fr@ab-automotive.be',
     lat: '50.910626', lon: '4.417513',
   },
   'AB Automotive Schaarbeek': {
     storeCode: 'ADV-AB-SCHAARBEEK',
-    name: 'AB Automotive Schaarbeek',
+    name: 'ADV Used Cars',
+    label: 'ADV Used Cars Schaarbeek',
     addr1: 'Jacques Georginlaan 11-13', zip: '1030', city: 'Schaarbeek', county: 'BRU',
     phone: '+3222050971', email: 'bdc.fr@ab-automotive.be',
     lat: '50.856280', lon: '4.408640',
@@ -98,10 +108,17 @@ function resolveDealer(rawDealer, sourceKey) {
       zip: rawDealer.zip || '', city: rawDealer.city || '', county: rawDealer.county || '',
       phone: normalisePhone(rawDealer.phone), email: rawDealer.email || '',
       lat: rawDealer.latitude || '', lon: rawDealer.longitude || '',
+      label: rawName || sourceKey,
       unknown: true,
     };
   }
-  return { ...entry, phone: normalisePhone(entry.phone), unknown: false };
+  // Sites that do not share a name with another one need no separate label.
+  return {
+    ...entry,
+    label: entry.label || entry.name,
+    phone: normalisePhone(entry.phone),
+    unknown: false,
+  };
 }
 
 const provinceOf = (county, lang) => (PROVINCE[county] ? PROVINCE[county][lang] : county || '');

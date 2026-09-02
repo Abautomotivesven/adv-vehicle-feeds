@@ -79,7 +79,9 @@ Everything tunable lives in `config.json`.
 ## Adding a dealer or a brand
 
 - **New MotorK feed:** add it to `sources` in `config.json`.
-- **New dealer site:** add it to `DEALERS` in `src/dealers.js`. Without an entry the
+- **New dealer site:** add it to `DEALERS` in `src/dealers.js`. Give it a `name`
+  (what customers see on the ad) and, if it shares that name with another site, a
+  `label` to keep the two apart in the report. Without an entry the
   build still works — it falls back to MotorK's own dealer block and marks it
   `unknown` in the report — but MotorK's addresses and phone numbers have gaps, so
   add a proper entry.
