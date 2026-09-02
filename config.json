@@ -29,6 +29,11 @@
     "googleAdditionalMax": 10
   },
 
+  "meta": {
+    "defaultCondition": "",
+    "_comment": "Meta condition grade (EXCELLENT, GOOD, FAIR, POOR, OTHER). The field is optional and MotorK does not grade vehicles, so it is left empty rather than claiming a grade in the ad. Set it if you want one applied to every car."
+  },
+
   "google": {
     "fulfillment": "online",
     "_comment": "'online' validates immediately. Switch to 'in_store' or 'both' once the store codes in stores.csv exist in the linked Google Business Profile.",

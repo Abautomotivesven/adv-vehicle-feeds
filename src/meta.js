@@ -61,7 +61,8 @@ function row(v, lang, config, maxImages) {
     fuel_type: v.fuelMeta,
     drivetrain: v.drivetrain,
     availability: 'available',
-    condition: 'GOOD',
+    // Optional, and MotorK does not grade vehicles — see meta.defaultCondition.
+    condition: config.meta.defaultCondition || '',
     vehicle_type: v.isCommercial ? 'commercial' : 'car_truck',
     status: 'active',
     date_first_on_lot: v.stockDate ? v.stockDate.toISOString().slice(0, 10) : '',

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T15:59:20.764Z",
+  "generatedAt": "2026-09-02T16:02:57.608Z",
   "totals": {
     "merged": 130,
     "inMeta": 104,
@@ -179,7 +179,7 @@
       "vehicle": "2025 Ford Mustang Mach-E Mach E - RWD - Base - 72Kwh",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "59182",
@@ -188,7 +188,7 @@
       "vehicle": "2025 Ford F 150 New F150 Raptor - V6 + LPG",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "60204",
@@ -197,7 +197,7 @@
       "vehicle": "2025 Ford Mustang Mustang V8 / Cabrio / Automaat / Dark Pack",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "62656",
@@ -269,7 +269,7 @@
       "vehicle": "2023 Ford Transit Custom Multi-Use 5 PLACES / L2 / Diesel / Garantie",
       "condition": "New",
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90225/ shows \"Out of stock\" (HTTP 200)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90225/ shows \"Out of stock\" (HTTP 410)"
     },
     {
       "id": "90226",
@@ -824,7 +824,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -915,7 +915,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -955,7 +955,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1351,7 +1351,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90225/ shows \"Out of stock\" (HTTP 200)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90225/ shows \"Out of stock\" (HTTP 410)"
         }
       ],
       "commercialBlock": true,

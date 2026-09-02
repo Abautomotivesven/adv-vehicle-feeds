@@ -17,10 +17,14 @@
     margin: 0; padding: 0 20px 64px;
     font: 15px/1.55 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: var(--ink);
+    background: var(--grey);
+  }
+  /* The navy band sits behind the header only, so it scrolls away with the page. */
+  body::before {
+    content: ""; position: absolute; inset: 0 0 auto; height: 340px; z-index: -1;
     background:
       radial-gradient(1100px 480px at 12% -8%, #16305c 0%, transparent 60%),
-      linear-gradient(180deg, var(--navy) 0 340px, var(--grey) 340px 100%);
-    background-attachment: fixed;
+      var(--navy);
   }
   .wrap { max-width: 1080px; margin: 0 auto; }
   header { padding: 44px 0 28px; color: #fff; }
@@ -63,7 +67,7 @@
 <div class="wrap">
   <header>
     <h1>ADV vehicle feeds</h1>
-    <p>Generated woensdag 2 september 2026 om 17:59 · Brussels time</p>
+    <p>Generated woensdag 2 september 2026 om 18:02 · Brussels time</p>
   </header>
 
   <div class="cards">
