@@ -25,10 +25,10 @@ const cleanNumber = (v) => {
   return Number.isFinite(n) ? n : null;
 };
 
-// The AB feed appends a watermark overlay through the query string. Google
-// disapproves watermarked images, so we ask the CDN for the clean original.
-function cleanImageUrl(url, strip) {
-  if (!strip) return url;
+// The AB feed burns ADV's watermark in through the query string. Dropping the
+// query gives the same photo without it. Both variants are kept so each platform
+// can take the one its policy allows.
+function stripWatermark(url) {
   const i = url.indexOf('?');
   return i === -1 ? url : url.slice(0, i);
 }
@@ -134,7 +134,7 @@ function parseCar(car, source, config) {
     .slice()
     .sort((a, b) => (a.attrs.main === 'true' ? -1 : b.attrs.main === 'true' ? 1 : 0)
       || (+a.attrs.index || 0) - (+b.attrs.index || 0))
-    .map((i) => cleanImageUrl(i.text.trim(), config.images.stripQueryParams))
+    .map((i) => i.text.trim())
     .filter(Boolean);
 
   const vin = textOf(car, 'vin').trim();
@@ -187,6 +187,7 @@ function parseCar(car, source, config) {
     rawDescription: textOf(car, 'description'),
     equipment: children(child(car, 'equipments'), 'equipment').map((e) => e.text.trim()).filter(Boolean),
     images,
+    imagesClean: images.map(stripWatermark),
     plate: textOf(car, 'plate'),
 
     // housekeeping

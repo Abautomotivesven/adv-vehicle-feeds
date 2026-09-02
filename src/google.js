@@ -57,15 +57,20 @@ function vehicleOptions(v, lang) {
     .slice(0, 200);
 }
 
+// Google disapproves images carrying a superimposed logo, so this feed takes the
+// clean variant unless config says otherwise.
+const imagesFor = (v, config) => (config.images.keepWatermark.google ? v.images : v.imagesClean);
+
 function item(v, lang, config) {
+  const images = imagesFor(v, config);
   const parts = [
     tag('g:id', v.id),
     tag('g:VIN', v.vin),
     tag('g:google_product_category', config.google.productCategory),
     ...fulfillment(v, config),
     tag('g:link', v.url[lang]),
-    tag('g:image_link', v.images[0]),
-    ...v.images.slice(1, 1 + config.images.googleAdditionalMax)
+    tag('g:image_link', images[0]),
+    ...images.slice(1, 1 + config.images.googleAdditionalMax)
       .map((u) => tag('g:additional_image_link', u)),
     tag('g:price', v.price != null ? `${v.price.toFixed(2)} ${config.currency}` : ''),
     tag('g:condition', v.condition.google),

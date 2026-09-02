@@ -23,8 +23,8 @@
   },
 
   "images": {
-    "stripQueryParams": true,
-    "_comment": "MotorK adds a watermark overlay via query string on the AB feed. Google disapproves watermarked images, so we request the clean original.",
+    "keepWatermark": { "meta": true, "google": false },
+    "_comment": "MotorK burns the watermark in through a query string, on the AB feed only. Meta allows watermarked images, so we keep them there. Google explicitly disapproves images with a superimposed logo, so that feed requests the clean original.",
     "metaMax": 20,
     "googleAdditionalMax": 10
   },

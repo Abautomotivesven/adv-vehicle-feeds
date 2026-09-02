@@ -38,8 +38,10 @@ function addressBlob(v, lang) {
   return JSON.stringify(obj);
 }
 
+const imagesFor = (v, config) => (config.images.keepWatermark.meta ? v.images : v.imagesClean);
+
 function row(v, lang, config, maxImages) {
-  const images = v.images.slice(0, config.images.metaMax);
+  const images = imagesFor(v, config).slice(0, config.images.metaMax);
   const cells = {
     vehicle_id: v.id,
     title: v.title[lang],
@@ -90,7 +92,7 @@ function buildMetaCsv(vehicles, lang, config) {
   const list = vehicles.filter((v) => v.inMeta);
   const maxImages = Math.min(
     config.images.metaMax,
-    list.reduce((m, v) => Math.max(m, v.images.length), 0) || 1,
+    list.reduce((m, v) => Math.max(m, imagesFor(v, config).length), 0) || 1,
   );
 
   const header = [...COLUMNS];
