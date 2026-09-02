@@ -39,9 +39,10 @@ function renderReport(report, config) {
         <td>${esc(v.vehicle)}</td>
         <td>${esc(v.dealer)}</td>
         <td><span class="pill">${esc(v.condition)}</span></td>
+        <td class="num">${v.mileage == null ? '' : new Intl.NumberFormat('nl-BE').format(v.mileage)}</td>
         <td class="muted">${esc(v.reason)}</td>
       </tr>`).join('')
-    : '<tr><td colspan="5" class="muted">None.</td></tr>';
+    : '<tr><td colspan="6" class="muted">None.</td></tr>';
 
   const dupRows = report.duplicates.length
     ? report.duplicates.map((d) => `
@@ -153,7 +154,7 @@ function renderReport(report, config) {
     <div class="scroll">
       <table>
         <thead><tr>
-          <th>Dealer</th><th class="num">Stock</th><th class="num">Meta</th><th class="num">Google</th>
+          <th>Showroom</th><th class="num">Stock</th><th class="num">Meta</th><th class="num">Google</th>
           <th class="num">Excluded</th><th class="num">No photos</th><th class="num">No VIN</th>
         </tr></thead>
         <tbody>${dealerRows}</tbody>
@@ -162,11 +163,11 @@ function renderReport(report, config) {
   </section>
 
   <section>
-    <h2>Not published on advusedcars.be</h2>
-    <p class="sub">These have no detail page on the website, so they are left out rather than given a link that errors.</p>
+    <h2>Left out: new stock, not used</h2>
+    <p class="sub">advusedcars.be only lists used cars, so these have no page to link to. Nearly all are new vehicles with delivery mileage. They are left out rather than given a link that errors — nothing here is broken.</p>
     <div class="scroll">
       <table>
-        <thead><tr><th class="num">ID</th><th>Vehicle</th><th>Dealer</th><th>Type</th><th>Reason</th></tr></thead>
+        <thead><tr><th class="num">ID</th><th>Vehicle</th><th>Showroom</th><th>Type</th><th class="num">km</th><th>Reason</th></tr></thead>
         <tbody>${excludedRows}</tbody>
       </table>
     </div>

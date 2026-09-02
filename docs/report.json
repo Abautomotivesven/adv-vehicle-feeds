@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:11:33.233Z",
+  "generatedAt": "2026-09-02T16:13:00.997Z",
   "totals": {
     "merged": 130,
     "inMeta": 104,
@@ -169,8 +169,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Mustang Mach-E Mach E - GT - Vapor Blue",
       "condition": "New",
+      "mileage": 12,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "52804",
@@ -178,8 +179,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2025 Ford Mustang Mach-E Mach E - RWD - Base - 72Kwh",
       "condition": "New",
+      "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "59182",
@@ -187,8 +189,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2025 Ford F 150 New F150 Raptor - V6 + LPG",
       "condition": "New",
+      "mileage": 150,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "60204",
@@ -196,8 +199,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2025 Ford Mustang Mustang V8 / Cabrio / Automaat / Dark Pack",
       "condition": "New",
+      "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "62656",
@@ -205,8 +209,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Kuga ST LINE X / Benzine / Garantie",
       "condition": "New",
+      "mileage": 10,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "84588",
@@ -214,8 +219,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Tourneo Tourneo Courier / EV / Garantie",
       "condition": "New",
+      "mileage": 10,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "84593",
@@ -223,8 +229,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Transit Courier Transit Courier - EV - New - Fleetprice",
       "condition": "New",
+      "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "89072",
@@ -232,8 +239,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Capri AWD / PREMIUM / 79Kwh / Garantie",
       "condition": "New",
+      "mileage": 11,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "89174",
@@ -241,8 +249,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Transit Custom E / 100Kw / Garantie",
       "condition": "New",
+      "mileage": null,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90087",
@@ -250,8 +259,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2025 Ford F 150 F150 LARIAT",
       "condition": "New",
+      "mileage": 150,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90094",
@@ -259,8 +269,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2025 Ford F 150 F150 LARIAT",
       "condition": "New",
+      "mileage": 150,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90225",
@@ -268,8 +279,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2023 Ford Transit Custom Multi-Use 5 PLACES / L2 / Diesel / Garantie",
       "condition": "New",
+      "mileage": 15,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90225/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90225/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90226",
@@ -277,8 +289,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2023 Ford Transit Custom Multi-Use 5 PLACES / L2 / Diesel / Garantie",
       "condition": "New",
+      "mileage": 15,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90226/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90226/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90426",
@@ -286,8 +299,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2023 Ford Transit Courier Trend / 100pk / Benzine / Fleetprice / Garantie",
       "condition": "New",
+      "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90427",
@@ -295,8 +309,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2023 Ford Transit Courier Trend / 100pk / Benzine / Fleetprice / Garantie",
       "condition": "New",
+      "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90564",
@@ -304,8 +319,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2026 Ford Transit Custom Custom EV / Garantie / L2 / 136Pk",
       "condition": "New",
+      "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/elektrisch/custom-ev-garantie-l2-136pk/90564/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/elektrisch/custom-ev-garantie-l2-136pk/90564/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "98467",
@@ -313,8 +329,9 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2024 Ford Puma St line X / New Car / Garantie",
       "condition": "New",
+      "mileage": 6,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "135786",
@@ -322,6 +339,7 @@
       "dealer": "ADV Used Cars Vilvoorde (Mechelsesteenweg)",
       "vehicle": "2026 Ford Kuga Titanium / Phev / New car",
       "condition": "New",
+      "mileage": 3,
       "reason": "no detail page on advusedcars.be",
       "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/plug-in-hybride/titanium-phev-new-car/135786/ shows \"Out of stock\" (HTTP 410)"
     },
@@ -331,8 +349,9 @@
       "dealer": "Vanspringel Automobiles",
       "vehicle": "2022 Ford Transit Chassis Cabine Trend 350L",
       "condition": "New",
+      "mileage": 6,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "69981",
@@ -340,8 +359,9 @@
       "dealer": "Vanspringel Automobiles",
       "vehicle": "2025 Ford F 150",
       "condition": "Used",
+      "mileage": 1591,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "49510",
@@ -349,8 +369,9 @@
       "dealer": "Waasland Automotive Beveren",
       "vehicle": "2023 Ford Mustang Mustang Cabrio - 5.0 V8 446 pk - Manueel",
       "condition": "New",
+      "mileage": 51,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "57123",
@@ -358,8 +379,9 @@
       "dealer": "Waasland Automotive Beveren",
       "vehicle": "2025 Ford Mustang Mach-E 99 kWh AWD GT - Daginschrijving",
       "condition": "New",
+      "mileage": 17,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "87996",
@@ -367,8 +389,9 @@
       "dealer": "Waasland Automotive Sint-Niklaas",
       "vehicle": "2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura",
       "condition": "New",
+      "mileage": 15,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "87997",
@@ -376,8 +399,9 @@
       "dealer": "Waasland Automotive Sint-Niklaas",
       "vehicle": "2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura",
       "condition": "New",
+      "mileage": 15,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "87998",
@@ -385,8 +409,9 @@
       "dealer": "Waasland Automotive Sint-Niklaas",
       "vehicle": "2026 Mazda CX-60 PHEV i-ACTIV AWD 8AT Homura",
       "condition": "New",
+      "mileage": 15,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 200)"
     }
   ],
   "rows": [
@@ -400,6 +425,7 @@
       "condition": "Used",
       "price": 43990,
       "images": 1,
+      "mileage": 24985,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -418,6 +444,7 @@
       "condition": "Used",
       "price": 19990,
       "images": 20,
+      "mileage": 46498,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -436,6 +463,7 @@
       "condition": "Used",
       "price": 48990,
       "images": 19,
+      "mileage": 35792,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -454,6 +482,7 @@
       "condition": "Used",
       "price": 18990,
       "images": 20,
+      "mileage": 56812,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -472,6 +501,7 @@
       "condition": "Used",
       "price": 24990,
       "images": 0,
+      "mileage": 33542,
       "live": "ok",
       "metaMissing": [
         "image"
@@ -494,6 +524,7 @@
       "condition": "Used",
       "price": 24990,
       "images": 18,
+      "mileage": 64778,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -512,6 +543,7 @@
       "condition": "Used",
       "price": 28990,
       "images": 19,
+      "mileage": 43281,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -530,6 +562,7 @@
       "condition": "Used",
       "price": 39990,
       "images": 19,
+      "mileage": 4256,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -548,6 +581,7 @@
       "condition": "Used",
       "price": 20990,
       "images": 20,
+      "mileage": 17682,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -566,6 +600,7 @@
       "condition": "Used",
       "price": 31990,
       "images": 20,
+      "mileage": 39220,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -584,6 +619,7 @@
       "condition": "Used",
       "price": 18990,
       "images": 20,
+      "mileage": 69718,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -602,6 +638,7 @@
       "condition": "Used",
       "price": 19990,
       "images": 20,
+      "mileage": 42615,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -620,6 +657,7 @@
       "condition": "Used",
       "price": 19990,
       "images": 18,
+      "mileage": 30842,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -638,6 +676,7 @@
       "condition": "New",
       "price": 61990,
       "images": 20,
+      "mileage": 12,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -645,7 +684,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -662,6 +701,7 @@
       "condition": "Used",
       "price": 36990,
       "images": 19,
+      "mileage": 17740,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -680,6 +720,7 @@
       "condition": "Used",
       "price": 41950,
       "images": 16,
+      "mileage": 115,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -698,6 +739,7 @@
       "condition": "Used",
       "price": 22990,
       "images": 20,
+      "mileage": 13643,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -716,6 +758,7 @@
       "condition": "Used",
       "price": 20990,
       "images": 20,
+      "mileage": 34752,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -734,6 +777,7 @@
       "condition": "Used",
       "price": 57990,
       "images": 17,
+      "mileage": 35855,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -752,6 +796,7 @@
       "condition": "Used",
       "price": 49990,
       "images": 19,
+      "mileage": 8333,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -770,6 +815,7 @@
       "condition": "Used",
       "price": 24290,
       "images": 20,
+      "mileage": 42238,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -788,6 +834,7 @@
       "condition": "Used",
       "price": 38990,
       "images": 19,
+      "mileage": 14422,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -806,6 +853,7 @@
       "condition": "Used",
       "price": 24990,
       "images": 19,
+      "mileage": 47267,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -824,6 +872,7 @@
       "condition": "Used",
       "price": 37990,
       "images": 17,
+      "mileage": 39450,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -842,6 +891,7 @@
       "condition": "New",
       "price": 48700,
       "images": 19,
+      "mileage": 5,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -849,7 +899,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -866,6 +916,7 @@
       "condition": "Used",
       "price": 57990,
       "images": 20,
+      "mileage": 22208,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -884,6 +935,7 @@
       "condition": "Used",
       "price": 14990,
       "images": 20,
+      "mileage": 61762,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -902,6 +954,7 @@
       "condition": "Used",
       "price": 21490,
       "images": 20,
+      "mileage": 44723,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -920,6 +973,7 @@
       "condition": "Used",
       "price": 51790,
       "images": 18,
+      "mileage": 27,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -938,6 +992,7 @@
       "condition": "New",
       "price": 137216,
       "images": 20,
+      "mileage": 150,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -945,7 +1000,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -962,6 +1017,7 @@
       "condition": "Used",
       "price": 16990,
       "images": 20,
+      "mileage": 30921,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -980,6 +1036,7 @@
       "condition": "New",
       "price": 63168,
       "images": 20,
+      "mileage": 5,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -987,7 +1044,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1004,6 +1061,7 @@
       "condition": "New",
       "price": 35407,
       "images": 17,
+      "mileage": 10,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1011,7 +1069,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1028,6 +1086,7 @@
       "condition": "Used",
       "price": 32990,
       "images": 20,
+      "mileage": 20,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1046,6 +1105,7 @@
       "condition": "Used",
       "price": 31490,
       "images": 21,
+      "mileage": 850,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1064,6 +1124,7 @@
       "condition": "Used",
       "price": 35290,
       "images": 19,
+      "mileage": 43770,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1082,6 +1143,7 @@
       "condition": "Used",
       "price": 17290,
       "images": 22,
+      "mileage": 54578,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1100,6 +1162,7 @@
       "condition": "Used",
       "price": 14990,
       "images": 17,
+      "mileage": 45573,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1118,6 +1181,7 @@
       "condition": "Used",
       "price": 33990,
       "images": 20,
+      "mileage": 67726,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1136,6 +1200,7 @@
       "condition": "Used",
       "price": 8990,
       "images": 20,
+      "mileage": 119068,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1154,6 +1219,7 @@
       "condition": "New",
       "price": 29767,
       "images": 20,
+      "mileage": 10,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1161,7 +1227,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1178,6 +1244,7 @@
       "condition": "Used",
       "price": 19990,
       "images": 19,
+      "mileage": 46031,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1196,6 +1263,7 @@
       "condition": "New",
       "price": 27057,
       "images": 18,
+      "mileage": 5,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1203,7 +1271,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1220,6 +1288,7 @@
       "condition": "Used",
       "price": 23290,
       "images": 21,
+      "mileage": 47264,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1238,6 +1307,7 @@
       "condition": "Used",
       "price": 24187,
       "images": 21,
+      "mileage": 59,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1256,6 +1326,7 @@
       "condition": "Used",
       "price": 10290,
       "images": 19,
+      "mileage": 80685,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1274,6 +1345,7 @@
       "condition": "Used",
       "price": 10290,
       "images": 20,
+      "mileage": 91325,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1292,6 +1364,7 @@
       "condition": "New",
       "price": 52963,
       "images": 11,
+      "mileage": 11,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1299,7 +1372,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1316,6 +1389,7 @@
       "condition": "New",
       "price": 47178,
       "images": 18,
+      "mileage": null,
       "live": "gone",
       "metaMissing": [
         "mileage.value"
@@ -1327,7 +1401,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1344,6 +1418,7 @@
       "condition": "New",
       "price": 89479,
       "images": 22,
+      "mileage": 150,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [
@@ -1353,7 +1428,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1370,6 +1445,7 @@
       "condition": "New",
       "price": 89479,
       "images": 22,
+      "mileage": 150,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [
@@ -1379,7 +1455,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1396,6 +1472,7 @@
       "condition": "New",
       "price": 42878,
       "images": 20,
+      "mileage": 15,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1403,7 +1480,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90225/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90225/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1420,6 +1497,7 @@
       "condition": "New",
       "price": 42878,
       "images": 1,
+      "mileage": 15,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1427,7 +1505,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90226/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/diesel/multi-use-5-places-l2-diesel-garantie/90226/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1444,6 +1522,7 @@
       "condition": "New",
       "price": 20597,
       "images": 20,
+      "mileage": 5,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1451,7 +1530,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1468,6 +1547,7 @@
       "condition": "New",
       "price": 20597,
       "images": 20,
+      "mileage": 5,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1475,7 +1555,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1492,6 +1572,7 @@
       "condition": "New",
       "price": 49234,
       "images": 18,
+      "mileage": 5,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1499,7 +1580,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/elektrisch/custom-ev-garantie-l2-136pk/90564/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-custom/elektrisch/custom-ev-garantie-l2-136pk/90564/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1516,6 +1597,7 @@
       "condition": "Used",
       "price": 48490,
       "images": 11,
+      "mileage": 65,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1534,6 +1616,7 @@
       "condition": "Used",
       "price": 32490,
       "images": 19,
+      "mileage": 11870,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1552,6 +1635,7 @@
       "condition": "New",
       "price": 26010,
       "images": 19,
+      "mileage": 6,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1559,7 +1643,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1576,6 +1660,7 @@
       "condition": "Used",
       "price": 39990,
       "images": 16,
+      "mileage": 36473,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1594,6 +1679,7 @@
       "condition": "Used",
       "price": 44990,
       "images": 18,
+      "mileage": 19205,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1612,6 +1698,7 @@
       "condition": "Used",
       "price": 18990,
       "images": 14,
+      "mileage": 16301,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1630,6 +1717,7 @@
       "condition": "Used",
       "price": 23990,
       "images": 16,
+      "mileage": 16550,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1648,6 +1736,7 @@
       "condition": "Used",
       "price": 32990,
       "images": 16,
+      "mileage": 147,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1666,6 +1755,7 @@
       "condition": "Used",
       "price": 16990,
       "images": 16,
+      "mileage": 43676,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1684,6 +1774,7 @@
       "condition": "Used",
       "price": 19990,
       "images": 18,
+      "mileage": 40070,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1702,6 +1793,7 @@
       "condition": "Used",
       "price": 55950,
       "images": 16,
+      "mileage": 11075,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1720,6 +1812,7 @@
       "condition": "Used",
       "price": 29027.9,
       "images": 16,
+      "mileage": 24,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1738,6 +1831,7 @@
       "condition": "Used",
       "price": 8990,
       "images": 16,
+      "mileage": 31024,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1756,6 +1850,7 @@
       "condition": "New",
       "price": 33953,
       "images": 19,
+      "mileage": 3,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -1780,6 +1875,7 @@
       "condition": "Used",
       "price": 72587.9,
       "images": 25,
+      "mileage": 4443,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1798,6 +1894,7 @@
       "condition": "Used",
       "price": 45012,
       "images": 17,
+      "mileage": 22501,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1816,6 +1913,7 @@
       "condition": "Used",
       "price": 23490,
       "images": 19,
+      "mileage": 13802,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1834,6 +1932,7 @@
       "condition": "Used",
       "price": 59995,
       "images": 8,
+      "mileage": 32900,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1852,6 +1951,7 @@
       "condition": "Used",
       "price": 29990,
       "images": 7,
+      "mileage": 100,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1870,6 +1970,7 @@
       "condition": "Used",
       "price": 49500,
       "images": 6,
+      "mileage": 32750,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1888,6 +1989,7 @@
       "condition": "Used",
       "price": 45990,
       "images": 7,
+      "mileage": 41899,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1906,6 +2008,7 @@
       "condition": "Used",
       "price": 33988.9,
       "images": 14,
+      "mileage": 95650,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1924,6 +2027,7 @@
       "condition": "Used",
       "price": 54990,
       "images": 8,
+      "mileage": 34625,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1942,6 +2046,7 @@
       "condition": "Used",
       "price": 46055,
       "images": 8,
+      "mileage": 4450,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1960,6 +2065,7 @@
       "condition": "Used",
       "price": 58858,
       "images": 7,
+      "mileage": 1500,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1978,6 +2084,7 @@
       "condition": "Used",
       "price": 52211.5,
       "images": 9,
+      "mileage": 19990,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -1996,6 +2103,7 @@
       "condition": "Used",
       "price": 50457,
       "images": 7,
+      "mileage": 19500,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2014,6 +2122,7 @@
       "condition": "Used",
       "price": 45675,
       "images": 7,
+      "mileage": 19900,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2032,6 +2141,7 @@
       "condition": "Used",
       "price": 37497.9,
       "images": 8,
+      "mileage": 3500,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2050,6 +2160,7 @@
       "condition": "Used",
       "price": 19490,
       "images": 7,
+      "mileage": 49350,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2068,6 +2179,7 @@
       "condition": "Used",
       "price": 38707.9,
       "images": 9,
+      "mileage": 50,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2086,6 +2198,7 @@
       "condition": "Used",
       "price": 55990,
       "images": 9,
+      "mileage": 28500,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2104,6 +2217,7 @@
       "condition": "Used",
       "price": 55900,
       "images": 9,
+      "mileage": 11500,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2122,6 +2236,7 @@
       "condition": "Used",
       "price": 18900,
       "images": 7,
+      "mileage": 37840,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2140,6 +2255,7 @@
       "condition": "Used",
       "price": 35900,
       "images": 7,
+      "mileage": 27500,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2158,6 +2274,7 @@
       "condition": "Used",
       "price": 26499,
       "images": 8,
+      "mileage": 15,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2176,6 +2293,7 @@
       "condition": "Used",
       "price": 34969,
       "images": 10,
+      "mileage": 25,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2194,6 +2312,7 @@
       "condition": "Used",
       "price": 39809,
       "images": 9,
+      "mileage": 25,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2212,6 +2331,7 @@
       "condition": "Used",
       "price": 20750,
       "images": 11,
+      "mileage": 21500,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2230,6 +2350,7 @@
       "condition": "New",
       "price": 49891.29,
       "images": 5,
+      "mileage": 6,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -2237,7 +2358,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -2254,6 +2375,7 @@
       "condition": "Used",
       "price": 54950,
       "images": 8,
+      "mileage": 6527,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2272,6 +2394,7 @@
       "condition": "Used",
       "price": 39950,
       "images": 15,
+      "mileage": 9305,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2290,6 +2413,7 @@
       "condition": "Used",
       "price": 44950,
       "images": 17,
+      "mileage": 12140,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2308,6 +2432,7 @@
       "condition": "Used",
       "price": 43950,
       "images": 15,
+      "mileage": 6500,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2326,6 +2451,7 @@
       "condition": "Used",
       "price": 57950,
       "images": 16,
+      "mileage": 8118,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2344,6 +2470,7 @@
       "condition": "Used",
       "price": 49950,
       "images": 13,
+      "mileage": 10012,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2362,6 +2489,7 @@
       "condition": "Used",
       "price": 29950,
       "images": 18,
+      "mileage": 12100,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2380,6 +2508,7 @@
       "condition": "Used",
       "price": 97300,
       "images": 7,
+      "mileage": 1591,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -2387,7 +2516,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2404,6 +2533,7 @@
       "condition": "Used",
       "price": 59950,
       "images": 13,
+      "mileage": 12100,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2422,6 +2552,7 @@
       "condition": "Used",
       "price": 37950,
       "images": 9,
+      "mileage": 20,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2440,6 +2571,7 @@
       "condition": "Used",
       "price": 19990,
       "images": 7,
+      "mileage": 22930,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2458,6 +2590,7 @@
       "condition": "Used",
       "price": 41950,
       "images": 12,
+      "mileage": 10,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2476,6 +2609,7 @@
       "condition": "Used",
       "price": 36990,
       "images": 16,
+      "mileage": 6464,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2494,6 +2628,7 @@
       "condition": "Used",
       "price": 36990,
       "images": 18,
+      "mileage": 7215,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2512,6 +2647,7 @@
       "condition": "New",
       "price": 62490,
       "images": 19,
+      "mileage": 51,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -2519,7 +2655,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2536,6 +2672,7 @@
       "condition": "Used",
       "price": 19990,
       "images": 18,
+      "mileage": 33312,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2554,6 +2691,7 @@
       "condition": "New",
       "price": 62920,
       "images": 19,
+      "mileage": 17,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [],
@@ -2561,7 +2699,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2578,6 +2716,7 @@
       "condition": "Used",
       "price": 21767.9,
       "images": 18,
+      "mileage": 32,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2596,6 +2735,7 @@
       "condition": "Used",
       "price": 24187.9,
       "images": 19,
+      "mileage": 9,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2614,6 +2754,7 @@
       "condition": "Used",
       "price": 24187.9,
       "images": 19,
+      "mileage": 25,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2632,6 +2773,7 @@
       "condition": "Used",
       "price": 48990,
       "images": 21,
+      "mileage": 89,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2650,6 +2792,7 @@
       "condition": "Used",
       "price": 24187.9,
       "images": 17,
+      "mileage": 73373,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2668,6 +2811,7 @@
       "condition": "Used",
       "price": 27769.5,
       "images": 19,
+      "mileage": 39607,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2686,6 +2830,7 @@
       "condition": "Used",
       "price": 54437.9,
       "images": 29,
+      "mileage": 82682,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2704,6 +2849,7 @@
       "condition": "Used",
       "price": 14990,
       "images": 19,
+      "mileage": 70134,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2722,6 +2868,7 @@
       "condition": "Used",
       "price": 15990,
       "images": 3,
+      "mileage": 103000,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2740,6 +2887,7 @@
       "condition": "New",
       "price": 57990,
       "images": 22,
+      "mileage": 15,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [
@@ -2749,7 +2897,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2766,6 +2914,7 @@
       "condition": "New",
       "price": 57990,
       "images": 22,
+      "mileage": 15,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [
@@ -2775,7 +2924,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2792,6 +2941,7 @@
       "condition": "New",
       "price": 57990,
       "images": 22,
+      "mileage": 15,
       "live": "gone",
       "metaMissing": [],
       "googleMissing": [
@@ -2801,7 +2951,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2818,6 +2968,7 @@
       "condition": "Used",
       "price": 58080,
       "images": 15,
+      "mileage": 23825,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2836,6 +2987,7 @@
       "condition": "Used",
       "price": 31990,
       "images": 19,
+      "mileage": 17717,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2854,6 +3006,7 @@
       "condition": "Used",
       "price": 29990,
       "images": 14,
+      "mileage": 35,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2872,6 +3025,7 @@
       "condition": "Used",
       "price": 55750,
       "images": 14,
+      "mileage": 6500,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],
@@ -2890,6 +3044,7 @@
       "condition": "Used",
       "price": 53845,
       "images": 18,
+      "mileage": 39051,
       "live": "ok",
       "metaMissing": [],
       "googleMissing": [],

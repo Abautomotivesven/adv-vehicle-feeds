@@ -85,6 +85,7 @@ function validate(vehicles, duplicates, config) {
       condition: v.condition.meta,
       price: v.price,
       images: v.images.length,
+      mileage: v.mileage,
       live: v.live && v.live.checked ? (v.live.gone ? 'gone' : 'ok') : null,
       metaMissing,
       googleMissing,
@@ -140,7 +141,7 @@ function validate(vehicles, duplicates, config) {
     })),
     excludedVehicles: rows.filter((r) => r.excluded.length).map((r) => ({
       id: r.id, source: r.source, dealer: r.dealer, vehicle: r.vehicle,
-      condition: r.condition, reason: r.excluded.map((e) => e.reason).join('; '),
+      condition: r.condition, mileage: r.mileage, reason: r.excluded.map((e) => e.reason).join('; '),
       detail: r.excluded.map((e) => e.detail).filter(Boolean).join('; '),
     })),
     rows,
