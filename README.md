@@ -6,6 +6,12 @@ GitHub Pages so both platforms can poll them once a day.
 
 No dependencies. Plain Node, no `npm install` needed.
 
+Before the first run, copy `secrets.example.json` to `secrets.local.json` and paste
+the four MotorK feed URLs into it. That file is gitignored — the repository is
+public so GitHub Pages works on a free plan, and the feed keys must not be in it.
+In GitHub Actions the same values come from repository secrets: `MOTORK_AB`,
+`MOTORK_WAASLAND`, `MOTORK_VANSPRINGEL`, `MOTORK_NEYT`.
+
 ```bash
 npm run build          # fetch, merge, check the website, write docs/
 npm run build:cached   # same, but reuse the XML already in raw/
@@ -87,7 +93,8 @@ Everything tunable lives in `config.json`.
 
 ## Adding a dealer or a brand
 
-- **New MotorK feed:** add it to `sources` in `config.json`.
+- **New MotorK feed:** add it to `sources` in `config.json` with a `urlEnv` name,
+  then add that URL to `secrets.local.json` and as a repository secret.
 - **New dealer site:** add it to `DEALERS` in `src/dealers.js`. Give it a `name`
   (what customers see on the ad) and, if it shares that name with another site, a
   `label` to keep the two apart in the report. Without an entry the
