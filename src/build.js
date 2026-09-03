@@ -19,13 +19,32 @@ const CACHE = path.join(ROOT, 'raw');
 
 const log = (...a) => console.log(...a);
 
+// The MotorK feed URLs contain an access key, so they are not committed. In CI they
+// arrive as repository secrets; locally they come from secrets.local.json, which is
+// gitignored. That way the repository can be public — which is what GitHub Pages
+// needs on a free plan — without publishing the keys.
+function resolveSourceUrl(src) {
+  const fromEnv = process.env[src.urlEnv];
+  if (fromEnv) return fromEnv;
+
+  const local = path.join(ROOT, 'secrets.local.json');
+  if (fs.existsSync(local)) {
+    const url = JSON.parse(fs.readFileSync(local, 'utf8'))[src.key];
+    if (url) return url;
+  }
+  throw new Error(
+    `no feed URL for "${src.key}". Set ${src.urlEnv} as an environment variable, ` +
+    'or add it to secrets.local.json (copy secrets.example.json to start).',
+  );
+}
+
 async function fetchSource(src, useCache) {
   const cacheFile = path.join(CACHE, `${src.key}.xml`);
   if (useCache && fs.existsSync(cacheFile)) {
     log(`   ${src.key}: using cached ${path.relative(ROOT, cacheFile)}`);
     return fs.readFileSync(cacheFile, 'utf8');
   }
-  const res = await fetch(src.url, {
+  const res = await fetch(resolveSourceUrl(src), {
     headers: { 'User-Agent': 'ADV-feed-builder/1.0 (+https://www.advautomotive.be)' },
   });
   if (!res.ok) throw new Error(`${src.key}: MotorK returned HTTP ${res.status}`);

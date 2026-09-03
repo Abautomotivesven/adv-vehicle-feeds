@@ -1,19 +1,38 @@
 {
   "sources": [
-    { "key": "ab",          "label": "AB Automotive",          "url": "https://stock-be.motork.io/myPortalXML/index?myPortalXMLkey=REDACTED" },
-    { "key": "waasland",    "label": "Waasland Automotive",    "url": "https://stock-be.motork.io/myPortalXML/index?myPortalXMLkey=REDACTED" },
-    { "key": "vanspringel", "label": "Vanspringel Automobiles","url": "https://stock-be.motork.io/myPortalXML/index?myPortalXMLkey=REDACTED" },
-    { "key": "neyt",        "label": "Garage Neyt",            "url": "https://stock-be.motork.io/myPortalXML/index?myPortalXMLkey=REDACTED" }
+    {
+      "key": "ab",
+      "label": "AB Automotive",
+      "urlEnv": "MOTORK_AB"
+    },
+    {
+      "key": "waasland",
+      "label": "Waasland Automotive",
+      "urlEnv": "MOTORK_WAASLAND"
+    },
+    {
+      "key": "vanspringel",
+      "label": "Vanspringel Automobiles",
+      "urlEnv": "MOTORK_VANSPRINGEL"
+    },
+    {
+      "key": "neyt",
+      "label": "Garage Neyt",
+      "urlEnv": "MOTORK_NEYT"
+    }
   ],
-
   "site": {
-    "nl": { "host": "https://nl.advusedcars.be", "segment": "autos/tweedehands" },
-    "fr": { "host": "https://fr.advusedcars.be", "segment": "voitures/occasion" }
+    "nl": {
+      "host": "https://nl.advusedcars.be",
+      "segment": "autos/tweedehands"
+    },
+    "fr": {
+      "host": "https://fr.advusedcars.be",
+      "segment": "voitures/occasion"
+    }
   },
-
   "currency": "EUR",
   "country": "BE",
-
   "livecheck": {
     "enabled": true,
     "concurrency": 8,
@@ -21,26 +40,25 @@
     "retries": 2,
     "_comment": "Only an explicit 404/410 removes a vehicle. Network errors keep it (fail-open) so an outage never empties the feed."
   },
-
   "images": {
-    "keepWatermark": { "meta": true, "google": false },
+    "keepWatermark": {
+      "meta": true,
+      "google": false
+    },
     "_comment": "MotorK burns the watermark in through a query string, on the AB feed only. Meta allows watermarked images, so we keep them there. Google explicitly disapproves images with a superimposed logo, so that feed requests the clean original.",
     "metaMax": 20,
     "googleAdditionalMax": 10
   },
-
   "meta": {
     "defaultCondition": "",
     "_comment": "Meta condition grade (EXCELLENT, GOOD, FAIR, POOR, OTHER). The field is optional and MotorK does not grade vehicles, so it is left empty rather than claiming a grade in the ad. Set it if you want one applied to every car."
   },
-
   "google": {
     "fulfillment": "online",
     "_comment": "'online' validates immediately. Switch to 'in_store' or 'both' once the store codes in stores.csv exist in the linked Google Business Profile.",
     "excludeCommercial": true,
     "productCategory": "916"
   },
-
   "validation": {
     "minCarsPerSource": 1,
     "failOnEmptySource": true

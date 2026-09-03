@@ -37,6 +37,11 @@ jobs:
 
       - name: Build feeds
         run: node src/build.js
+        env:
+          MOTORK_AB: ${{ secrets.MOTORK_AB }}
+          MOTORK_WAASLAND: ${{ secrets.MOTORK_WAASLAND }}
+          MOTORK_VANSPRINGEL: ${{ secrets.MOTORK_VANSPRINGEL }}
+          MOTORK_NEYT: ${{ secrets.MOTORK_NEYT }}
 
       - name: Check output against the Meta and Google specs
         run: node tools/check-output.js
