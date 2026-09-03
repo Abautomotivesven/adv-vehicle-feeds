@@ -141,6 +141,7 @@ function renderReport(report, config) {
     <div class="files">
       <a class="file" href="meta-vehicles-nl.csv"><b>meta-vehicles-nl.csv</b><span>Meta catalogue, Dutch</span></a>
       <a class="file" href="meta-vehicles-fr.csv"><b>meta-vehicles-fr.csv</b><span>Meta catalogue, French</span></a>
+      <a class="file" href="meta-language-fr.csv"><b>meta-language-fr.csv</b><span>Meta French overlay</span></a>
       <a class="file" href="google-vehicles-nl.xml"><b>google-vehicles-nl.xml</b><span>Merchant Center, Dutch</span></a>
       <a class="file" href="google-vehicles-fr.xml"><b>google-vehicles-fr.xml</b><span>Merchant Center, French</span></a>
       <a class="file" href="stores.csv"><b>stores.csv</b><span>Store data source</span></a>

@@ -33,15 +33,21 @@ Everything lands in `docs/`, which is what GitHub Pages serves.
 | File | Use |
 | --- | --- |
 | `meta-vehicles-nl.csv` | Meta catalogue, Dutch |
-| `meta-vehicles-fr.csv` | Meta catalogue, French |
+| `meta-vehicles-fr.csv` | Meta catalogue, French (only if you run a separate FR catalogue) |
+| `meta-language-fr.csv` | Meta language feed: overlays the French text and links onto the NL catalogue |
 | `google-vehicles-nl.xml` | Merchant Center, Dutch |
 | `google-vehicles-fr.xml` | Merchant Center, French |
 | `stores.csv` | Store data source, if you switch Google to `in_store` |
 | `index.html` | The dashboard: counts per dealer, what was excluded and why |
 | `report.json` | The same thing, machine-readable |
 
-Meta and Google each want one feed per language, pointing at that language's
-landing pages, so there are two files per platform rather than one.
+On Meta, run **one** catalogue: upload `meta-vehicles-nl.csv` as the main data
+source and `meta-language-fr.csv` as a language feed (override `fr_XX`). Meta then
+serves French titles, descriptions and fr.advusedcars.be links to French speakers
+automatically. `meta-vehicles-fr.csv` is only needed if you would rather keep two
+separate catalogues.
+
+Google has no equivalent overlay, so it takes one feed per language.
 
 ## Layout
 
@@ -70,11 +76,14 @@ Everything tunable lives in `config.json`.
 
 - `livecheck.enabled` — set to `false` to skip the website check (faster, but you
   may publish dead links).
-- `images.stripQueryParams` — the AB feed adds a watermark through the query string.
-  Google disapproves watermarked images, so by default we request the clean original.
+- `images.keepWatermark` — per platform. MotorK burns ADV's watermark in through a
+  query string on the AB feed. Meta keeps it (branding, and allowed); Google gets the
+  clean original, because its image policy disapproves a superimposed logo.
 - `google.fulfillment` — `online` (default), `in_store`, or `both`. See below.
 - `google.excludeCommercial` — Google's vehicle ads policy does not allow vans,
   buses or tippers. On by default; they stay in the Meta feed.
+- `meta.defaultCondition` — Meta's optional condition grade. Empty by default,
+  since MotorK does not grade vehicles and we would rather not claim one.
 
 ## Adding a dealer or a brand
 

@@ -9,7 +9,7 @@ const path = require('path');
 const { parseSource, mergeVehicles } = require('./parse.js');
 const { checkVehicles } = require('./livecheck.js');
 const { validate } = require('./validate.js');
-const { buildMetaCsv } = require('./meta.js');
+const { buildMetaCsv, buildMetaLanguageCsv } = require('./meta.js');
 const { buildGoogleXml, buildStoresCsv } = require('./google.js');
 const { renderReport } = require('./report.js');
 
@@ -81,6 +81,8 @@ async function main() {
   const files = {
     'meta-vehicles-nl.csv': buildMetaCsv(vehicles, 'nl', config),
     'meta-vehicles-fr.csv': buildMetaCsv(vehicles, 'fr', config),
+    // Overlay for running one Meta catalogue in both languages.
+    'meta-language-fr.csv': buildMetaLanguageCsv(vehicles, 'fr', config),
     'google-vehicles-nl.xml': buildGoogleXml(vehicles, 'nl', config),
     'google-vehicles-fr.xml': buildGoogleXml(vehicles, 'fr', config),
     'stores.csv': buildStoresCsv(vehicles.filter((v) => v.inMeta || v.inGoogle)),

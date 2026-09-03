@@ -181,9 +181,37 @@ function checkGoogle(file) {
   return items.length;
 }
 
+// A language feed overlays localised fields onto the main feed, matched on id.
+// Every id must exist in the main feed or the overlay silently does nothing, and
+// price must stay out of it — Meta only accepts price in a country feed.
+function checkLanguageFeed(file, mainFile, expectedOverride) {
+  console.log(`\n${file}`);
+  const rows = readCsv(fs.readFileSync(path.join(OUT, file), 'utf8'));
+  const header = rows[0];
+  const idx = Object.fromEntries(header.map((h, i) => [h, i]));
+  const mainIds = new Set(readCsv(fs.readFileSync(path.join(OUT, mainFile), 'utf8'))
+    .slice(1).map((r) => r[0]));
+
+  for (const col of ['id', 'override']) if (!(col in idx)) fail(`missing column "${col}"`);
+  for (const banned of ['price', 'sale_price', 'availability', 'status']) {
+    if (banned in idx) fail(`"${banned}" is not allowed in a language feed`);
+  }
+
+  let bad = 0;
+  for (const r of rows.slice(1)) {
+    if (r.length !== header.length) { fail(`row has ${r.length} cells, header has ${header.length}`); bad++; continue; }
+    const id = r[idx.id];
+    if (!mainIds.has(id)) { fail(`${id}: not present in ${mainFile}, so the overlay would be ignored`); bad++; }
+    if (r[idx.override] !== expectedOverride) { fail(`${id}: override is "${r[idx.override]}", expected ${expectedOverride}`); bad++; }
+    if (idx.url !== undefined && !/^https:\/\//.test(r[idx.url] || '')) { fail(`${id}: url is not https`); bad++; }
+  }
+  if (!bad) pass(`${rows.length - 1} rows, all matched to ${mainFile} with override ${expectedOverride}`);
+}
+
 console.log('Checking generated feeds against the published specs');
 checkMeta('meta-vehicles-nl.csv');
 checkMeta('meta-vehicles-fr.csv');
+checkLanguageFeed('meta-language-fr.csv', 'meta-vehicles-nl.csv', 'fr_XX');
 checkGoogle('google-vehicles-nl.xml');
 checkGoogle('google-vehicles-fr.xml');
 

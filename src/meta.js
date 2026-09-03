@@ -103,4 +103,32 @@ function buildMetaCsv(vehicles, lang, config) {
   return lines.join('\r\n') + '\r\n';
 }
 
-module.exports = { buildMetaCsv, COLUMNS };
+// Meta's way of running one catalogue in two languages: a "language feed" that
+// overlays the localised fields onto the main feed, matched on id. Beats keeping
+// two full catalogues in step by hand.
+//
+// For vehicles the supported fields are title, description, price, sale_price, url,
+// image[0].url and custom_label_0-2. Price is deliberately left out: Meta only
+// accepts it in a country feed, and ours is the same in both languages anyway.
+const LANGUAGE_CODES = { nl: 'nl_XX', fr: 'fr_XX' };
+const LANGUAGE_COLUMNS = ['id', 'override', 'title', 'description', 'url', 'custom_label_2'];
+
+function buildMetaLanguageCsv(vehicles, lang, config) {
+  const override = LANGUAGE_CODES[lang];
+  if (!override) throw new Error(`no Meta language code for "${lang}"`);
+
+  const lines = [csvLine(LANGUAGE_COLUMNS)];
+  for (const v of vehicles.filter((x) => x.inMeta)) {
+    lines.push(csvLine([
+      v.id,
+      override,
+      v.title[lang],
+      v.description[lang],
+      v.url[lang],
+      v.fuelLabel[lang],
+    ]));
+  }
+  return lines.join('\r\n') + '\r\n';
+}
+
+module.exports = { buildMetaCsv, buildMetaLanguageCsv, COLUMNS, LANGUAGE_COLUMNS };
