@@ -80,6 +80,8 @@ read the normalised vehicle, so a change to the source shape is a one-file chang
 
 Everything tunable lives in `config.json`.
 
+- `fetch.attempts` / `fetch.timeoutMs` — MotorK drops the odd request, so each feed
+  is retried with backoff before the build gives up.
 - `livecheck.enabled` — set to `false` to skip the website check (faster, but you
   may publish dead links).
 - `images.keepWatermark` — per platform. MotorK burns ADV's watermark in through a

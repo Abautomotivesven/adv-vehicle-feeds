@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T14:52:56.871Z",
+  "generatedAt": "2026-09-15T14:55:07.138Z",
   "totals": {
     "merged": 129,
     "inMeta": 107,
@@ -161,7 +161,7 @@
       "condition": "New",
       "mileage": 12,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "52804",
@@ -171,7 +171,7 @@
       "condition": "New",
       "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "59182",
@@ -181,7 +181,7 @@
       "condition": "New",
       "mileage": 150,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "60204",
@@ -191,7 +191,7 @@
       "condition": "New",
       "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "62656",
@@ -201,7 +201,7 @@
       "condition": "New",
       "mileage": 10,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "84588",
@@ -211,7 +211,7 @@
       "condition": "New",
       "mileage": 10,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "84593",
@@ -221,7 +221,7 @@
       "condition": "New",
       "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "89072",
@@ -231,7 +231,7 @@
       "condition": "New",
       "mileage": 11,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "89174",
@@ -241,7 +241,7 @@
       "condition": "New",
       "mileage": null,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90087",
@@ -251,7 +251,7 @@
       "condition": "New",
       "mileage": 150,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90094",
@@ -261,7 +261,7 @@
       "condition": "New",
       "mileage": 150,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90426",
@@ -271,7 +271,7 @@
       "condition": "New",
       "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90427",
@@ -281,7 +281,7 @@
       "condition": "New",
       "mileage": 5,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "90564",
@@ -301,7 +301,7 @@
       "condition": "New",
       "mileage": 6,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "22125",
@@ -311,7 +311,7 @@
       "condition": "New",
       "mileage": 6,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "69981",
@@ -321,7 +321,7 @@
       "condition": "Used",
       "mileage": 1591,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "49510",
@@ -331,7 +331,7 @@
       "condition": "New",
       "mileage": 51,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "57123",
@@ -341,7 +341,7 @@
       "condition": "New",
       "mileage": 17,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "87996",
@@ -351,7 +351,7 @@
       "condition": "New",
       "mileage": 15,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "87997",
@@ -361,7 +361,7 @@
       "condition": "New",
       "mileage": 15,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 200)"
     },
     {
       "id": "87998",
@@ -371,7 +371,7 @@
       "condition": "New",
       "mileage": 15,
       "reason": "no detail page on advusedcars.be",
-      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 410)"
+      "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 200)"
     }
   ],
   "rows": [
@@ -602,7 +602,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-gt-vapor-blue/18431/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -817,7 +817,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang-mach-e/elektrisch/mach-e-rwd-base-72kwh/52804/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -918,7 +918,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/new-f150-raptor-v6-lpg/59182/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -962,7 +962,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/mustang/benzine/mustang-v8-cabrio-automaat-dark-pack/60204/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -987,7 +987,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/kuga/benzine/st-line-x-benzine-garantie/62656/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1126,7 +1126,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/tourneo/elektrisch/tourneo-courier-ev-garantie/84588/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1170,7 +1170,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/elektrisch/transit-courier-ev-new-fleetprice/84593/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1271,7 +1271,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/capri/elektrisch/awd-premium-79kwh-garantie/89072/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1300,7 +1300,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit/elektrisch/custom-e-100kw-garantie/89174/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1327,7 +1327,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90087/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1354,7 +1354,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/f-150/benzine/f150-lariat/90094/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -1379,7 +1379,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90426/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1404,7 +1404,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/transit-courier/benzine/trend-100pk-benzine-fleetprice-garantie/90427/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -1492,7 +1492,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/vilvoorde/ford/puma/hybride-benzine/st-line-x-new-car-garantie/98467/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2315,7 +2315,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/transit/diesel/chassis-cabine-trend-350l/22125/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": true,
@@ -2473,7 +2473,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/saint-gilles/ford/f-150/benzine/f-150/69981/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2612,7 +2612,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang/benzine/mustang-cabrio-5-0-v8-446-pk-manueel/49510/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2656,7 +2656,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/beveren/ford/mustang-mach-e/elektrisch/99-kwh-awd-gt-daginschrijving/57123/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2835,7 +2835,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87996/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2862,7 +2862,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87997/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,
@@ -2889,7 +2889,7 @@
         {
           "feed": "both",
           "reason": "no detail page on advusedcars.be",
-          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 410)"
+          "detail": "the page at https://nl.advusedcars.be/autos/tweedehands/sint-niklaas/mazda/cx-60/plug-in-hybride/phev-i-activ-awd-8at-homura/87998/ shows \"Out of stock\" (HTTP 200)"
         }
       ],
       "commercialBlock": false,

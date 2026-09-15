@@ -62,5 +62,10 @@
   "validation": {
     "minCarsPerSource": 1,
     "failOnEmptySource": true
+  },
+  "fetch": {
+    "attempts": 4,
+    "timeoutMs": 60000,
+    "_comment": "MotorK drops the odd request. Retry with backoff so one blip does not cost a whole day of feed."
   }
 }

@@ -17,6 +17,8 @@ const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'docs');
 const CACHE = path.join(ROOT, 'raw');
 
+const config = JSON.parse(fs.readFileSync(path.join(ROOT, 'config.json'), 'utf8'));
+
 const log = (...a) => console.log(...a);
 
 // The MotorK feed URLs contain an access key, so they are not committed. In CI they
@@ -38,26 +40,56 @@ function resolveSourceUrl(src) {
   );
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// MotorK occasionally refuses or drops a request. Without retries a single blip
+// takes out the whole day's feed, which is what happened on 2026-09-15: the same
+// build succeeded an hour earlier and an hour later.
+async function fetchOnce(url, timeoutMs) {
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), timeoutMs);
+  try {
+    const res = await fetch(url, {
+      signal: ctl.signal,
+      headers: { 'User-Agent': 'ADV-feed-builder/1.0 (+https://www.advautomotive.be)' },
+    });
+    if (!res.ok) throw new Error(`MotorK returned HTTP ${res.status}`);
+    const text = await res.text();
+    if (!/<car\b/.test(text)) throw new Error('response contains no <car> elements');
+    return text;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function fetchSource(src, useCache) {
   const cacheFile = path.join(CACHE, `${src.key}.xml`);
   if (useCache && fs.existsSync(cacheFile)) {
     log(`   ${src.key}: using cached ${path.relative(ROOT, cacheFile)}`);
     return fs.readFileSync(cacheFile, 'utf8');
   }
-  const res = await fetch(resolveSourceUrl(src), {
-    headers: { 'User-Agent': 'ADV-feed-builder/1.0 (+https://www.advautomotive.be)' },
-  });
-  if (!res.ok) throw new Error(`${src.key}: MotorK returned HTTP ${res.status}`);
-  const text = await res.text();
-  if (!/<car\b/.test(text)) throw new Error(`${src.key}: response contains no <car> elements`);
-  fs.mkdirSync(CACHE, { recursive: true });
-  fs.writeFileSync(cacheFile, text);
-  log(`   ${src.key}: ${(text.length / 1024).toFixed(0)} kB`);
-  return text;
+
+  const { attempts, timeoutMs } = config.fetch;
+  const url = resolveSourceUrl(src);
+  let lastErr;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      const text = await fetchOnce(url, timeoutMs);
+      fs.mkdirSync(CACHE, { recursive: true });
+      fs.writeFileSync(cacheFile, text);
+      log(`   ${src.key}: ${(text.length / 1024).toFixed(0)} kB${attempt > 1 ? ` (attempt ${attempt})` : ''}`);
+      return text;
+    } catch (err) {
+      lastErr = err;
+      const why = err.name === 'AbortError' ? `no response within ${timeoutMs / 1000}s` : err.message;
+      log(`   ${src.key}: attempt ${attempt}/${attempts} failed (${why})`);
+      if (attempt < attempts) await sleep(3000 * attempt);
+    }
+  }
+  throw new Error(`${src.key}: ${lastErr.message} after ${attempts} attempts`);
 }
 
 async function main() {
-  const config = JSON.parse(fs.readFileSync(path.join(ROOT, 'config.json'), 'utf8'));
   const useCache = process.argv.includes('--cached');
   const noLive = process.argv.includes('--no-livecheck');
   if (noLive) config.livecheck.enabled = false;
