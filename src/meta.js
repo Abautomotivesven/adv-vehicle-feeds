@@ -110,8 +110,12 @@ function buildMetaCsv(vehicles, lang, config) {
 // For vehicles the supported fields are title, description, price, sale_price, url,
 // image[0].url and custom_label_0-2. Price is deliberately left out: Meta only
 // accepts it in a country feed, and ours is the same in both languages anyway.
+// The identifier column has to match the main feed's, so for a vehicle catalogue it
+// is vehicle_id. Meta's own language-feed example says `id`, but that example is for
+// the products vertical: using it here makes every row fail with "Add required
+// product attribute: vehicle_id".
 const LANGUAGE_CODES = { nl: 'nl_XX', fr: 'fr_XX' };
-const LANGUAGE_COLUMNS = ['id', 'override', 'title', 'description', 'url', 'custom_label_2'];
+const LANGUAGE_COLUMNS = ['vehicle_id', 'override', 'title', 'description', 'url', 'custom_label_2'];
 
 function buildMetaLanguageCsv(vehicles, lang, config) {
   const override = LANGUAGE_CODES[lang];

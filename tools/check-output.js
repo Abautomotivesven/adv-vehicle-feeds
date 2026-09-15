@@ -192,7 +192,8 @@ function checkLanguageFeed(file, mainFile, expectedOverride) {
   const mainIds = new Set(readCsv(fs.readFileSync(path.join(OUT, mainFile), 'utf8'))
     .slice(1).map((r) => r[0]));
 
-  for (const col of ['id', 'override']) if (!(col in idx)) fail(`missing column "${col}"`);
+  // Must match the main feed's identifier column, which for vehicles is vehicle_id.
+  for (const col of ['vehicle_id', 'override']) if (!(col in idx)) fail(`missing column "${col}"`);
   for (const banned of ['price', 'sale_price', 'availability', 'status']) {
     if (banned in idx) fail(`"${banned}" is not allowed in a language feed`);
   }
@@ -200,7 +201,7 @@ function checkLanguageFeed(file, mainFile, expectedOverride) {
   let bad = 0;
   for (const r of rows.slice(1)) {
     if (r.length !== header.length) { fail(`row has ${r.length} cells, header has ${header.length}`); bad++; continue; }
-    const id = r[idx.id];
+    const id = r[idx.vehicle_id];
     if (!mainIds.has(id)) { fail(`${id}: not present in ${mainFile}, so the overlay would be ignored`); bad++; }
     if (r[idx.override] !== expectedOverride) { fail(`${id}: override is "${r[idx.override]}", expected ${expectedOverride}`); bad++; }
     if (idx.url !== undefined && !/^https:\/\//.test(r[idx.url] || '')) { fail(`${id}: url is not https`); bad++; }
