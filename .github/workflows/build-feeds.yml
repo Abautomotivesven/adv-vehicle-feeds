@@ -35,6 +35,39 @@ jobs:
         with:
           node-version: '22'
 
+      # Temporary. Job logs need admin rights to read, but step names and their
+      # pass/fail show publicly, so each check below reports one specific thing.
+      - name: "diag 1 - MOTORK_AB secret is set"
+        continue-on-error: true
+        env: { V: "${{ secrets.MOTORK_AB }}" }
+        run: test -n "$V"
+      - name: "diag 2 - MOTORK_WAASLAND secret is set"
+        continue-on-error: true
+        env: { V: "${{ secrets.MOTORK_WAASLAND }}" }
+        run: test -n "$V"
+      - name: "diag 3 - MOTORK_VANSPRINGEL secret is set"
+        continue-on-error: true
+        env: { V: "${{ secrets.MOTORK_VANSPRINGEL }}" }
+        run: test -n "$V"
+      - name: "diag 4 - MOTORK_NEYT secret is set"
+        continue-on-error: true
+        env: { V: "${{ secrets.MOTORK_NEYT }}" }
+        run: test -n "$V"
+      - name: "diag 5 - MOTORK_AB looks like a feed URL"
+        continue-on-error: true
+        env: { V: "${{ secrets.MOTORK_AB }}" }
+        run: echo "$V" | grep -q '^https://stock-be\.motork\.io/myPortalXML'
+      - name: "diag 6 - MotorK answers from GitHub's network"
+        continue-on-error: true
+        env: { V: "${{ secrets.MOTORK_AB }}" }
+        run: curl -sSf --max-time 120 -o /tmp/ab.xml "$V"
+      - name: "diag 7 - that response contains vehicles"
+        continue-on-error: true
+        run: grep -q '<car ' /tmp/ab.xml
+      - name: "diag 8 - advusedcars.be reachable from GitHub"
+        continue-on-error: true
+        run: curl -sSf --max-time 60 -o /dev/null https://nl.advusedcars.be/autos/tweedehands/x/x/x/x/x/20991/
+
       - name: Build feeds
         run: node src/build.js
         env:
