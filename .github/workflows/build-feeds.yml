@@ -54,7 +54,11 @@ jobs:
           path: docs/
           retention-days: 14
 
+      # enablement: true turns GitHub Pages on by itself the first time this runs,
+      # so nobody has to find the setting in the repository menus.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
