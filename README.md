@@ -84,9 +84,10 @@ Everything tunable lives in `config.json`.
   is retried with backoff before the build gives up.
 - `livecheck.enabled` — set to `false` to skip the website check (faster, but you
   may publish dead links).
-- `images.keepWatermark` — per platform. MotorK burns ADV's watermark in through a
-  query string on the AB feed. Meta keeps it (branding, and allowed); Google gets the
-  clean original, because its image policy disapproves a superimposed logo.
+- `images.keepWatermark` — per platform, both off. Google disapproves a superimposed
+  logo, and on Meta the ad image template stamps ADV branding on itself, so MotorK's
+  watermark collided with it. Note the address badge and the blue advusedcars.be bar
+  are baked into MotorK source photos and cannot be removed from here.
 - `google.fulfillment` — `online` (default), `in_store`, or `both`. See below.
 - `google.excludeCommercial` — Google's vehicle ads policy does not allow vans,
   buses or tippers. On by default; they stay in the Meta feed.

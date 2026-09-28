@@ -42,10 +42,10 @@
   },
   "images": {
     "keepWatermark": {
-      "meta": true,
+      "meta": false,
       "google": false
     },
-    "_comment": "MotorK burns the watermark in through a query string, on the AB feed only. Meta allows watermarked images, so we keep them there. Google explicitly disapproves images with a superimposed logo, so that feed requests the clean original.",
+    "_comment": "MotorK burns a watermark in through a query string on the AB feed. Both platforms now take the clean original: Google because its image policy disapproves a superimposed logo, Meta because the ad template stamps ADV branding on itself and two logos collided. Note the address badge and the blue advusedcars.be bar are baked into MotorK source photos and cannot be removed here.",
     "metaMax": 20,
     "googleAdditionalMax": 10
   },
