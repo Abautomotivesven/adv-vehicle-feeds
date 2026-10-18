@@ -21,7 +21,7 @@ const COLUMNS = [
   'date_first_on_lot', 'days_on_lot', 'stock_number',
   'address', 'latitude', 'longitude',
   'dealer_id', 'dealer_name', 'dealer_phone',
-  'custom_label_0', 'custom_label_1', 'custom_label_2',
+  'custom_label_0', 'custom_label_1', 'custom_label_2', 'custom_label_3',
 ];
 
 // Meta's combined address form is a JSON-ish blob in one column. The subfield is
@@ -81,6 +81,10 @@ function row(v, lang, config, maxImages) {
     custom_label_0: v.dealer.label,
     custom_label_1: v.make,
     custom_label_2: v.fuelLabel[lang],
+    // Mileage as a ready-made "X km" string. The ad image template uses this
+    // instead of the built-in mileage field, because Meta localises that field's
+    // unit per viewer ("公里" / "kilometer" / …). A plain label is shown as-is.
+    custom_label_3: v.mileage != null ? `${new Intl.NumberFormat('nl-BE').format(Math.round(v.mileage))} km` : '',
   };
 
   const values = COLUMNS.map((c) => cells[c] ?? '');
