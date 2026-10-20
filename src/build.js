@@ -9,6 +9,7 @@ const path = require('path');
 const { parseSource, mergeVehicles } = require('./parse.js');
 const { checkVehicles } = require('./livecheck.js');
 const { validate } = require('./validate.js');
+const { buildGoogleAdsCsv } = require('./googleads.js');
 const { buildMetaCsv, buildMetaLanguageCsv } = require('./meta.js');
 const { buildGoogleXml, buildStoresCsv } = require('./google.js');
 const { renderReport } = require('./report.js');
@@ -136,6 +137,8 @@ async function main() {
     'meta-language-fr.csv': buildMetaLanguageCsv(vehicles, 'fr', config),
     'google-vehicles-nl.xml': buildGoogleXml(vehicles, 'nl', config),
     'google-vehicles-fr.xml': buildGoogleXml(vehicles, 'fr', config),
+    // Google Ads dynamic remarketing (Display), one row per car per language.
+    'google-ads-remarketing.csv': buildGoogleAdsCsv(vehicles, config),
     'stores.csv': buildStoresCsv(vehicles.filter((v) => v.inMeta || v.inGoogle)),
     'report.json': JSON.stringify(report, null, 2),
     'index.html': renderReport(report, config),

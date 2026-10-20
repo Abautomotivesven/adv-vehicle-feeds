@@ -75,7 +75,7 @@ function buildDescription(v, lang) {
       specs.length ? specs.join(', ') + '.' : '',
       [year ? `Année ${year}` : '', km].filter(Boolean).join(', ') + '.',
       top ? `Équipements: ${top}.` : '',
-      'Voiture d\'occasion contrôlée, garantie minimum 1 an. Réservez votre essai en ligne.',
+      'Voiture d\'occasion contrôlée, garantie prolongeable. Réservez votre essai en ligne.',
     ];
     return [keepRaw ? raw : '', ...bits].filter((b) => b && b !== '.').join(' ').slice(0, 5000);
   }
@@ -84,7 +84,7 @@ function buildDescription(v, lang) {
     specs.length ? specs.join(', ') + '.' : '',
     [year ? `Bouwjaar ${year}` : '', km].filter(Boolean).join(', ') + '.',
     top ? `Uitrusting: ${top}.` : '',
-    'Gecontroleerde occasie met minimum 1 jaar garantie. Boek je testrit online.',
+    'Gecontroleerde occasie, garantie uitbreidbaar. Boek je testrit online.',
   ];
   return [keepRaw ? raw : '', ...bits].filter((b) => b && b !== '.').join(' ').slice(0, 5000);
 }
