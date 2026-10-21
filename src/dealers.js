@@ -33,7 +33,7 @@ const DEALERS = {
     name: 'ADV Used Cars',
     label: 'ADV Used Cars Vilvoorde (Schaarbeeklei)',
     addr1: 'Schaarbeeklei 555', zip: '1800', city: 'Vilvoorde', county: 'VBR',
-    phone: '+3222546995', email: 'bdc.fr@ab-automotive.be',
+    phone: '+3222276995', email: 'bdc.fr@ab-automotive.be',
     lat: '50.910626', lon: '4.417513',
   },
   'AB Automotive Schaarbeek': {
