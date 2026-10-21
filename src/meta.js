@@ -80,7 +80,11 @@ function row(v, lang, config, maxImages) {
     // since every AB site shares one public name.
     custom_label_0: v.dealer.label,
     custom_label_1: v.make,
-    custom_label_2: v.fuelLabel[lang],
+    // Left empty on purpose (Sven 2026-10-21): the ad image template prints this field as
+    // the fuel line, and Meta does not always apply the French language feed to template
+    // text, so French viewers saw "Benzine". Without it the card shows only year and km,
+    // which read the same in both languages.
+    custom_label_2: '',
     // Mileage as a ready-made "X km" string. The ad image template uses this
     // instead of the built-in mileage field, because Meta localises that field's
     // unit per viewer ("公里" / "kilometer" / …). A plain label is shown as-is.
@@ -133,7 +137,7 @@ function buildMetaLanguageCsv(vehicles, lang, config) {
       v.title[lang],
       v.description[lang],
       v.url[lang],
-      v.fuelLabel[lang],
+      '', // fuel no longer on the ad card, see custom_label_2 in row()
     ]));
   }
   return lines.join('\r\n') + '\r\n';
