@@ -6,7 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { parseSource, mergeVehicles } = require('./parse.js');
+const { parseSource, mergeVehicles, slugify } = require('./parse.js');
 const { checkVehicles } = require('./livecheck.js');
 const { validate } = require('./validate.js');
 const { buildGoogleAdsCsv } = require('./googleads.js');
@@ -130,7 +130,14 @@ async function main() {
 
   log('6. Writing feeds');
   fs.mkdirSync(OUT, { recursive: true });
+  // Second Meta catalogue for the A/B test (Sven 2026-10-23): same cars, but the links go to
+  // advautomotive.be/usedcars instead of advusedcars.be. That page routes on the trailing id only;
+  // the utm tags let its stats tell these visits apart.
+  const advUrl = (v, lang) => `https://www.advautomotive.be${lang === 'fr' ? '/fr' : ''}/usedcars/${[slugify(v.make), slugify(v.model), v.id].filter(Boolean).join('-')}?utm_source=meta&utm_medium=paid&utm_campaign=catalogue_advautomotive`;
+  const onAdv = vehicles.map((v) => ({ ...v, url: { nl: advUrl(v, 'nl'), fr: advUrl(v, 'fr') } }));
   const files = {
+    'meta-advautomotive-nl.csv': buildMetaCsv(onAdv, 'nl', config),
+    'meta-advautomotive-language-fr.csv': buildMetaLanguageCsv(onAdv, 'fr', config),
     'meta-vehicles-nl.csv': buildMetaCsv(vehicles, 'nl', config),
     'meta-vehicles-fr.csv': buildMetaCsv(vehicles, 'fr', config),
     // Overlay for running one Meta catalogue in both languages.
